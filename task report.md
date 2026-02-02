@@ -1,0 +1,4 @@
+冷启动规则作为reward训一个policy模型,跟sft模型比较
+
+数据sft两个模型,一个是更新的reward 一个是人为设定的reward
+
