@@ -1,0 +1,537 @@
+{
+    "client_id": "23",
+    "session_number": 1,
+    "session_dialogue": [
+        {
+            "role": "Counselor",
+            "text": "<think><assessment>第一次会面，需要先让孩子和家长有安全感，并清楚会谈结构与保密边界，降低不确定性。</assessment><client_state>未知，可能好奇、略紧张；家长或有期待与担心。</client_state><skill>32:表达理解与共情; 36:向来访者说明本次会谈的主题与任务</skill><strategy>用温暖语言欢迎并说明今天主要是相互认识、了解情况与初步计划，清楚说明会记录与可能的停顿，询问是否可以。</strategy></think>欢迎你们，我是这里的心理老师。第一次见面，我会一边听你们说、一边做些小笔记，可能会停一下确认细节，目的是更好地帮忙。今天主要是认识彼此、了解近况，一起想一个初步的计划。你们听起来可以吗？"
+        },
+        {
+            "role": "Client",
+            "text": "可以。我不怕。就是你会把我说的话都记下来吗？会不会告诉别人？"
+        },
+        {
+            "role": "Counselor",
+            "text": "<think><assessment>孩子对保密有疑问，需要具体解释‘保密与例外’，并征得孩子与家长同意。</assessment><client_state>开放、好奇，轻度不确定。</client_state><skill>34:尊重来访者感受并处理顾虑; 37:介绍整个咨询阶段的安排与后续步骤</skill><strategy>明确保密原则与安全例外，说明会与家长合作的部分，并请孩子确认。</strategy></think>好问题。大部分你在这里说的话只在我们之间保留；如果涉及到你或他人的安全，或者需要家长和学校一起配合的部分，我会提前和你打招呼，我们再一起告诉妈妈。这样安排，你觉得可以吗？"
+        },
+        {
+            "role": "Client",
+            "text": "可以吧。那你要是写太久就别写了，先听我说。"
+        },
+        {
+            "role": "Counselor",
+            "text": "<think><assessment>建立合作氛围，开始基本信息建档，先确认孩子喜欢的称呼。</assessment><client_state>轻松、愿意互动。</client_state><skill>40:询问来访者的基本人口学信息</skill><strategy>用儿童友好语气询问喜欢的称呼。</strategy></think>好的，你提醒得很棒。你希望我怎么称呼你呢？"
+        },
+        {
+            "role": "Client",
+            "text": "叫我强强也行。"
+        },
+        {
+            "role": "Counselor",
+            "text": "<think><assessment>继续基本信息确认，年龄与年级有助于后续评估与计划。</assessment><client_state>开放、配合。</client_state><skill>40:询问来访者的基本人口学信息</skill><strategy>单一提问，确认年龄或年级。</strategy></think>强强，你现在几岁了，读几年级？"
+        },
+        {
+            "role": "Client",
+            "text": "八岁半，二年级。"
+        },
+        {
+            "role": "Counselor",
+            "text": "<think><assessment>补充监护人信息与联系方式，便于后续联络与配合。</assessment><client_state>合作、稳定。</client_state><skill>40:询问来访者的基本人口学信息</skill><strategy>请家长提供称呼与联系方式。</strategy></think>好的。也请妈妈留一下您的称呼和常用联系方式，方便我们后续沟通。"
+        },
+        {
+            "role": "Client",
+            "text": "（妈妈）我姓李，叫李女士，这个手机号是主要联系的：1XXXXXXXXXX。"
+        },
+        {
+            "role": "Counselor",
+            "text": "<think><assessment>进入来访动机与期待的开放式探索，让孩子先说，再请家长补充。</assessment><client_state>期待被理解，动机未知。</client_state><skill>33:耐心倾听来访者叙述</skill><strategy>提出一个开放式问题，了解促使来访的主要原因。</strategy></think>强强，你觉得最近最让你想来聊聊的事情是什么？"
+        },
+        {
+            "role": "Client",
+            "text": "我老想拔头发。写作业、看书的时候手就痒痒的，拔一下感觉舒服点，但后来又后悔。"
+        },
+        {
+            "role": "Counselor",
+            "text": "<think><assessment>开始系统化症状评估，先从频率与最近一周的发生情况入手。</assessment><client_state>能描述体验，愿意合作。</client_state><skill>49:询问主诉问题的频率与持续时间; 46:询问主诉问题的生理表现</skill><strategy>聚焦‘最近一周频率’的单一问题，保持清晰。</strategy></think>谢谢你说得这么具体。帮我看看，最近这一周，大概多久会出现一次这样的拔毛冲动或动作？"
+        },
+        {
+            "role": "Client",
+            "text": "基本每天写作业的时候都会有，有时候会拔好几根。"
+        },
+        {
+            "role": "Counselor",
+            "text": "<think><assessment>继续保持同一技能链，探索高发情境；保持技能连续性。</assessment><client_state>具体、配合。</client_state><skill>49:询问主诉问题的频率与持续时间; 46:询问主诉问题的生理表现</skill><strategy>询问在哪些情境更容易发生（如写作业、看书）。</strategy></think>通常在哪些时候最容易发生？比如写作业、看书，还是别的时刻？"
+        },
+        {
+            "role": "Client",
+            "text": "写作业和看书最多。玩的时候不会，睡觉也不会。人很多在旁边我一般也不会。"
+        },
+        {
+            "role": "Counselor",
+            "text": "<think><assessment>继续同一链条，补充身体感觉与一次持续时长，仍保持不超过两问。</assessment><client_state>能识别身体信号。</client_state><skill>46:询问主诉问题的生理表现; 49:询问主诉问题的频率与持续时间</skill><strategy>询问当时最明显的身体感觉与一次大约持续多久。</strategy></think>当那个冲动来时，你身体最明显的感觉是什么？一回大概会持续多久？"
+        },
+        {
+            "role": "Client",
+            "text": "头皮紧紧的、心跳快，手指也痒痒的。一回可能几分钟，卡壳的时候会更久。"
+        },
+        {
+            "role": "Counselor",
+            "text": "<think><assessment>补充停止因素与后果，仍在同一主题上使用相同技能组有助一致性。</assessment><client_state>具体、可信。</client_state><skill>47:询问主诉问题的行为表现; 48:询问主诉问题的严重程度</skill><strategy>询问什么会让她停下来，以及之后的感受或是否造成明显损伤。</strategy></think>一般是什么会让你停下来？之后你的感觉会变成怎样？有没有出现过破皮、出血或很疼的情况？"
+        },
+        {
+            "role": "Client",
+            "text": "有人靠近我或者妈妈走过来我就会停。拔完会松一口气，但有点后悔。皮肤有时红红的，偶尔有点疼，不会出血。"
+        },
+        {
+            "role": "Counselor",
+            "text": "<think><assessment>确认是否有咀嚼或吞咽毛发，以排除额外风险；转入社交影响。</assessment><client_state>坦诚、可合作。</client_state><skill>47:询问主诉问题的行为表现; 50:询问主诉问题对社会功能的影响</skill><strategy>先确认是否有咀嚼/吞咽，然后过渡到被注视时的反应。</strategy></think>你会不会把拔下来的毛放到嘴里去咬或吞？当同学注意到你的眉毛或睫毛时，你通常会怎么做？"
+        },
+        {
+            "role": "Client",
+            "text": "不会，那个好恶心。我不太喜欢别人盯着我，我就会低头或者看别的地方，怕他们笑我。"
+        },
+        {
+            "role": "Counselor",
+            "text": "<think><assessment>转入学校功能：注意力、小动作、作业、老师反馈，分步推进以避免多问。</assessment><client_state>存在羞耻与回避，功能可能受影响。</client_state><skill>59:评估教育背景与学习压力; 50:询问主诉问题对社会功能的影响</skill><strategy>先聚焦上课注意和小动作，单一问题。</strategy></think>上课时，你的注意力和小动作情况怎么样？老师最近会怎么评价你？"
+        },
+        {
+            "role": "Client",
+            "text": "我会转铅笔、抖腿，老师会提醒我。作业我拖得很久，尤其不喜欢的题目。"
+        },
+        {
+            "role": "Counselor",
+            "text": "<think><assessment>继续学校人际：冲突与典型事件，进入CBT横向链条的入口。</assessment><client_state>合作、愿意讲细节。</client_state><skill>47:询问主诉问题的行为表现; 45:询问主诉问题的具体情绪表现</skill><strategy>请她选最近一次与同学的冲突，描述发生了什么。</strategy></think>我们挑最近一次和同学的矛盾来说一说，可以吗？那次是发生了什么事？"
+        },
+        {
+            "role": "Client",
+            "text": "上周有个男生没问我就用我的橡皮，我很气，就打了他一下，他也推我，我们就吵起来了。"
+        },
+        {
+            "role": "Counselor",
+            "text": "<think><assessment>用苏格拉底式问题引出当时的想法与情绪，构建情境—想法—情绪—行为链。</assessment><client_state>有愤怒与被侵犯感，思维可能有敌意归因。</client_state><skill>45:询问主诉问题的具体情绪表现; 47:询问主诉问题的行为表现</skill><strategy>单一问题，聚焦当时脑海里的念头。</strategy></think>当时你脑海里最先冒出来的想法是什么？"
+        },
+        {
+            "role": "Client",
+            "text": "我觉得他就是故意欺负我，我得让他知道别惹我。"
+        },
+        {
+            "role": "Counselor",
+            "text": "<think><assessment>确认后果与主观感受，完成链条并评估功能影响。</assessment><client_state>愤怒后有后悔或委屈的可能。</client_state><skill>50:询问主诉问题对社会功能的影响</skill><strategy>询问事后的结果及你的感受。</strategy></think>后来学校怎么处理的？这件事之后你心里更像是后悔、委屈，还是理直气壮一些？"
+        },
+        {
+            "role": "Client",
+            "text": "老师批评了我们，还换了座位。我后来有点后悔，也觉得他不讲礼貌。"
+        },
+        {
+            "role": "Counselor",
+            "text": "<think><assessment>转入家庭系统：与妈妈、爸爸、妹妹的互动，先从与妈妈的常见冲突切入。</assessment><client_state>可谈、带有委屈与被忽视感的可能。</client_state><skill>56:询问来访者家庭关系</skill><strategy>单一开放问题，聚焦与妈妈最容易出现的情况。</strategy></think>在家里，你和妈妈平时最容易因为什么事情起冲突？"
+        },
+        {
+            "role": "Client",
+            "text": "主要是作业。她老让我快点，我就烦，我们会吵。"
+        },
+        {
+            "role": "Counselor",
+            "text": "<think><assessment>补充父亲参与度与互动质量，静态信息需要在会谈中被探索到。</assessment><client_state>聚焦妈妈冲突，父亲角色未知。</client_state><skill>56:询问来访者家庭关系</skill><strategy>单一问题，了解与爸爸的相处与在家的角色。</strategy></think>和爸爸的相处呢？他在这些事情上通常会怎么做？"
+        },
+        {
+            "role": "Client",
+            "text": "爸爸很忙，常常不在家，他基本不管作业的事，就是偶尔说让我听话。"
+        },
+        {
+            "role": "Counselor",
+            "text": "<think><assessment>温和触及一次更严重的家庭事件，探索是否出现过离家或长期冷战等，确保不暗示特定答案。</assessment><client_state>可能存在被冷落或不被理解的体验。</client_state><skill>56:询问来访者家庭关系</skill><strategy>用中性语句询问有没有发生过比较严重的一次，比如很久不说话或有人离开家一阵子。</strategy></think>有没有发生过比较严重的一次，比如你们很久没有说话，或者有人一段时间不在家的情况？"
+        },
+        {
+            "role": "Client",
+            "text": "有一次我和妈妈吵得很厉害，她出门住到奶奶那边了，大概三天吧。我那几天很不开心。"
+        },
+        {
+            "role": "Counselor",
+            "text": "<think><assessment>进行纵向轻探：当妈妈离开或不按照她的想法时，这对她意味着什么，触及可能的核心担心。</assessment><client_state>脆弱、委屈，可能担心被不爱或被偏心。</client_state><skill>33:耐心倾听来访者叙述</skill><strategy>单一纵向问题，帮助表达深层担心。</strategy></think>当妈妈离开那几天，你心里有没有冒出过“是不是妈妈不在乎我”这样的担心？"
+        },
+        {
+            "role": "Client",
+            "text": "有，我会觉得是不是我做得很糟，她更喜欢妹妹。虽然她也会抱我，但那时我就很难受。"
+        },
+        {
+            "role": "Counselor",
+            "text": "<think><assessment>转入风险与安全评估，确认身体损伤、自/他伤想法，便于制定安全计划。</assessment><client_state>愿意谈敏感问题。</client_state><skill>48:询问主诉问题的严重程度</skill><strategy>两问并行：是否出现破皮/出血/感染；是否出现过自伤或伤人的想法。</strategy></think>我需要确认一个安全问题：最近拔毛有没有出现破皮、出血或感染？还有，当你特别生气时，会不会有伤害自己或伤害别人的想法？"
+        },
+        {
+            "role": "Client",
+            "text": "不会出血，也没感染，就是红和有点疼。我不会想伤害自己。生气时会想推人，有时候也想掐妹妹，但妈妈会拦住我。"
+        },
+        {
+            "role": "Counselor",
+            "text": "<think><assessment>制定简短安全/降级计划：停止信号、呼吸、替代动作、寻求成人、环境管理，并征求同意。</assessment><client_state>可接受指导，家长在场适合协作。</client_state><skill>34:尊重来访者感受并处理顾虑</skill><strategy>提出具体做法并询问可行性。</strategy></think>我们可以先约定一个“暂停信号”：当你感觉“手指痒、心里紧”或快要生气失控时，先停一下，做三次慢呼吸；手去捏一个小软球或在桌下搓橡皮，等情绪降一点再决定怎么做。如果控制不住，立刻找老师或妈妈求助；家里对容易争抢的物品先分开放。这样做，你和妈妈觉得可行吗？"
+        },
+        {
+            "role": "Client",
+            "text": "我可以试试捏球的办法。（妈妈）我同意，我们回去就准备小软球，也会和老师沟通这个方法。"
+        },
+        {
+            "role": "Counselor",
+            "text": "<think><assessment>补充既往就医与评估信息，了解是否看过专科/咨询、是否用药及检查结果。</assessment><client_state>家长愿意提供信息。</client_state><skill>65:询问精神科就诊经历; 66:询问既往心理问题和心理咨询经历</skill><strategy>单一问题综合了解既往就医与评估。</strategy></think>之前有没有在医院或心理门诊看过医生、做过评估或咨询？是否用过药物或做过相关检查？"
+        },
+        {
+            "role": "Client",
+            "text": "（妈妈）去过儿童精神科，做过一些检查，没有异常；没有用药，量表提示注意力和冲动方面偏高。"
+        },
+        {
+            "role": "Counselor",
+            "text": "<think><assessment>了解生活方式支持：睡眠、饮食、运动，以判断生理资源与日常节律。</assessment><client_state>稳定、可述。</client_state><skill>63:询问健康相关的生活习惯</skill><strategy>单一问题，询问三方面的总体情况。</strategy></think>最近你的睡眠、吃饭和运动大致怎么样？"
+        },
+        {
+            "role": "Client",
+            "text": "睡得还行，偶尔做梦。吃饭还可以，不太挑食。运动我喜欢跑步，课间常在跑。"
+        },
+        {
+            "role": "Counselor",
+            "text": "<think><assessment>补充学校与同伴关系、家校沟通与可用支持，完善功能画像。</assessment><client_state>功能受影响但有同伴资源的可能。</client_state><skill>50:询问主诉问题对社会功能的影响; 59:评估教育背景与学习压力</skill><strategy>单一问题，了解老师反馈与同伴关系。</strategy></think>老师最近还有没有什么具体反馈？同学里有没有几个关系比较好的？"
+        },
+        {
+            "role": "Client",
+            "text": "（妈妈）老师说她注意力要盯紧些，座位换过几次。强强有一两个玩的好的，但也有同学不太愿意和她同桌。"
+        },
+        {
+            "role": "Counselor",
+            "text": "<think><assessment>协作设定初步目标，先确认关键领域，再让孩子选择优先项。</assessment><client_state>改变动机明确：减少拔毛、少冲突、被同学接纳。</client_state><skill>121:确认咨询目标的关键领域</skill><strategy>用通俗语言总结目标领域，让孩子选最想先改变的一项。</strategy></think>听下来，我们要一起努力的几件事包括：写作业时把“紧紧的感觉”变小、减少拔毛；学不用打架也能表达与保护自己的办法；上课更专注一点。强强，你最想先从哪一件开始？"
+        },
+        {
+            "role": "Client",
+            "text": "先把拔毛变少，不想被同学盯着看。然后就是不要老和人打架。"
+        },
+        {
+            "role": "Counselor",
+            "text": "<think><assessment>将目标具体化与可量化，并讨论本周的记录与策略，确认可行性。</assessment><client_state>愿意尝试，有自我效能感萌芽。</client_state><skill>122:设定咨询目标的具体行为或情绪改变; 123:讨论咨询目标的可达成性</skill><strategy>提出具体目标与记录办法，并征求可行性反馈。</strategy></think>那我们把它具体一点：本周写作业时试着用“暂停+三次呼吸+捏软球”，把一次写作业中的拔毛次数降到尽量不拔，或至多一两次。你和妈妈一起用一张小记录表，写下：什么时候、在做什么、当时的想法和身体感觉、你用了哪个办法。这样安排，你有把握先试一周吗？"
+        },
+        {
+            "role": "Client",
+            "text": "可以试试。我把小捏捏球放书桌旁边，妈妈可以提醒我。"
+        },
+        {
+            "role": "Counselor",
+            "text": "<think><assessment>促成即时承诺，确定24小时内最小行动，强化可执行性。</assessment><client_state>积极、愿意行动。</client_state><skill>122:设定咨询目标的具体行为或情绪改变</skill><strategy>请她说出24小时内最小、最容易做到的一步。</strategy></think>在接下来的24小时里，你愿意做的最小一步是什么？"
+        },
+        {
+            "role": "Client",
+            "text": "回家把捏捏球放好，今晚写作业就用一次“暂停+三次呼吸+捏球”。"
+        },
+        {
+            "role": "Counselor",
+            "text": "<think><assessment>说明后续会谈频率与方式，便于家庭决定是否继续并建立预期。</assessment><client_state>家庭配合度高，需明确节奏。</client_state><skill>124:向来访者说明预计的咨询次数和频率</skill><strategy>提出建议频率与阶段长度，并邀请确认。</strategy></think>关于后续安排，我建议每周一次，先做8到12次为一个阶段；每次我们会练注意力和情绪的小练习，也会回顾记录表，最后和妈妈一起复盘要点。这样的频率和方式，你们觉得合适吗？"
+        },
+        {
+            "role": "Client",
+            "text": "（妈妈）合适。我可以每周这个时间带她来。强强：要是有小游戏我更愿意来。"
+        },
+        {
+            "role": "Counselor",
+            "text": "<think><assessment>进行收尾总结，巩固共识与计划，肯定努力与小进步，安排下次携带记录。</assessment><client_state>积极、被理解，动机被激活。</client_state><skill>32:表达理解与共情; 39:向来访者说明会谈内容安排与问题询问</skill><strategy>简要回顾要点与安全计划，提醒下次带记录，给予鼓励性结束语。</strategy></think>今天我们完成了彼此认识和保密约定；了解了写作业/看书时更容易拔毛，拔前紧绷、拔时短暂舒服、之后会后悔，也会因为被注视而想回避；聊了在学校的注意力与冲突，还有一次妈妈离开三天带给你的委屈感。我们一起定了安全小方案（暂停信号、三次呼吸、捏软球、需要时找大人）和一周记录表，并约定今晚先做一次最小行动。你们今天做得很棒，下次把记录带来，我们一起把“紧绷感”继续往下调。今天先到这里，辛苦你们了。"
+        }
+    ],
+    "critique_report": {
+        "global_summary": "整体会谈结构与CBT忠实性较好，完成了保密说明、基本信息收集、主诉与功能影响评估、横向链条、纵向轻触、初步安全计划与目标设定。但存在若干机制性问题：个别轮次问题数量超限、在关键节点上建议主导性稍强、对兄妹互动与家长期望的探索不够充分、情绪强度未进行词语锚点量化，影响儿童来访者的负荷与自主性、以及资料的完整度与目标对齐度。",
+        "issues": [
+            {
+                "turn_idx": 18,
+                "error_tag": "提问过多/超过限制",
+                "severity": "高",
+                "quote": "一般是什么会让你停下来？之后你的感觉会变成怎样？有没有出现过破皮、出血或很疼的情况？",
+                "analysis": {
+                    "root_cause": "在同一轮中连续堆叠了三个问题，试图同时覆盖停止因素、事后主观感受与身体损伤评估，超出“每次不超过两个问题”的限制。",
+                    "impact": "对8岁来访者造成认知负荷与选择困难，可能导致回答片段化或表面化，降低了信息的准确性与深度，也容易打断其自然叙述节奏。",
+                    "better_alternative": "分成两轮推进：先问“是什么会让你停下来？”并跟进“之后你的感觉更像是轻松、后悔还是混合的？”；下一轮再单独询问“有没有出现破皮、出血或感染的情况？”以降低负荷并提高信息质量。"
+                }
+            },
+            {
+                "turn_idx": 40,
+                "error_tag": "建议主导过强",
+                "severity": "中",
+                "quote": "我们可以先约定一个“暂停信号”：当你感觉“手指痒、心里紧”或快要生气失控时，先停一下，做三次慢呼吸；手去捏一个小软球或在桌下搓橡皮，等情绪降一点再决定怎么做。如果控制不住，立刻找老师或妈妈求助；家里对容易争抢的物品先分开放。这样做，你和妈妈觉得可行吗？",
+                "analysis": {
+                    "root_cause": "在尚未邀请儿童先提出自选替代行为与偏好时，咨询师直接给出完整套方案，减少了苏格拉底式合作与儿童参与感。",
+                    "impact": "可能弱化儿童的自主性与内在动机，导致执行时更像“被安排”，从而影响依从度；也降低了对儿童自发策略的捕捉机会。",
+                    "better_alternative": "先用合作式探索：“当手指痒或心里紧时，你觉得有什么办法能让身体从很紧变成中等或轻一点？”在其提出1-2个想法后再补充‘暂停+呼吸+捏软球’等选项，共创而非单向指令。"
+                }
+            },
+            {
+                "turn_idx": 10,
+                "error_tag": "家长期望探索不足",
+                "severity": "中",
+                "quote": "强强，你觉得最近最让你想来聊聊的事情是什么？",
+                "analysis": {
+                    "root_cause": "仅向儿童提出动机探索，未在同一议程内同步收集家长的期待与改变目标（例如：家长希望哪些变化），导致信息来源单一。",
+                    "impact": "降低了对“家庭协作与目标对齐”的把握，后续目标设定可能更多依据孩子视角，遗漏家长关键资源与限制，影响计划的可实施性。",
+                    "better_alternative": "在孩子回答后补充征询：“妈妈也可以说说，您最希望哪方面先有一点改变？比如学习时的状态、与同学/妹妹的相处，或是拔毛次数。”以确保三方目标对齐。"
+                }
+            },
+            {
+                "turn_idx": 38,
+                "error_tag": "情绪强度未词语锚点量化",
+                "severity": "低",
+                "quote": "我需要确认一个安全问题：最近拔毛有没有出现破皮、出血或感染？还有，当你特别生气时，会不会有伤害自己或伤害别人的想法？",
+                "analysis": {
+                    "root_cause": "安全评估聚焦有无（yes/no），但未在同一模块引入词语锚点的强度评估（如‘很轻—中等—很强’），导致对风险强度与波动的判断不足。",
+                    "impact": "不利于后续制定分层应对（例如在中等时启动哪些策略，在很强时升级求助），也影响初步目标的可测量性与动态监测。",
+                    "better_alternative": "加入词语锚点：“当情绪上来时，通常是轻微烦躁、中等生气，还是很强的暴冲感？”据此分层匹配‘暂停、呼吸、捏球、寻求成人’的升级路径。"
+                }
+            }
+        ]
+    },
+    "refined_session": [
+        {
+            "role": "counselor",
+            "text": "<think><assessment>第一次见面，需要让孩子和家长感到安全、被尊重，同时把会谈的方式说清楚，降低不确定感。</assessment><client_state>未知，可能好奇或略紧张；家长带着期待和担心。</client_state><skill>32:表达理解与共情; 36:向来访者说明本次会谈的主题与任务</skill><strategy>用温暖的欢迎和简短说明本次会谈是了解情况与一起想办法，说明会做笔记与可能适时停顿确认。</strategy></think>强强和妈妈，欢迎你们。我在这里会一边听你们说，一边做一些小笔记，必要的时候会停一下确认细节，目的是更好地帮忙。今天主要是先互相认识，了解你们的近况，再一起商量一个初步的计划。这样说你们觉得可以吗？"
+        },
+        {
+            "role": "client",
+            "text": "可以。我不太紧张。不过你记的东西会给别人看吗？"
+        },
+        {
+            "role": "counselor",
+            "text": "<think><assessment>孩子询问保密，需明确儿童咨询的保密原则与例外，并说明与家长协作的范围。</assessment><client_state>开放、好奇，轻微不确定。</client_state><skill>34:尊重来访者感受并处理顾虑; 39:向来访者说明会谈内容安排与问题询问</skill><strategy>先肯定问题合理，说明保密与安全例外，以及需要家长配合的部分会提前征求意见。</strategy></think>你问得很好。大多数在这里说的话只在我们之间保留；如果涉及到你或别人的安全，或者需要家长和老师一起配合的部分，我会提前和你说，我们再一起告诉妈妈。你愿意这样安排吗？"
+        },
+        {
+            "role": "client",
+            "text": "嗯……可以吧。你别一直写，先听我说。"
+        },
+        {
+            "role": "counselor",
+            "text": "<think><assessment>接纳孩子的偏好，开始基础信息收集，先确认喜欢的称呼。</assessment><client_state>轻松、愿意互动。</client_state><skill>40:询问来访者的基本人口学信息</skill><strategy>用儿童友好的语气询问喜欢的称呼。</strategy></think>好的，我会先听你说。你喜欢我怎么称呼你？叫你“强强”可以吗？"
+        },
+        {
+            "role": "client",
+            "text": "可以，叫我强强。"
+        },
+        {
+            "role": "counselor",
+            "text": "<think><assessment>继续确认基础信息，年龄与年级有助于评估与后续安排。</assessment><client_state>配合良好。</client_state><skill>40:询问来访者的基本人口学信息</skill><strategy>单一问题确认年龄与年级。</strategy></think>强强，你现在几岁啦？读几年级呢？"
+        },
+        {
+            "role": "client",
+            "text": "八岁半，二年级。"
+        },
+        {
+            "role": "counselor",
+            "text": "<think><assessment>补充家长信息与联系方式，便于后续协作。</assessment><client_state>家庭在场，适合当面确认。</client_state><skill>40:询问来访者的基本人口学信息</skill><strategy>请家长留下称呼与常用联系方式。</strategy></think>好的。也请妈妈留下您的称呼和常用联系方式，方便我们后续沟通配合。"
+        },
+        {
+            "role": "client",
+            "text": "（妈妈）我姓李，叫李女士，这是主要联系的手机号：1XXXXXXXXXX。"
+        },
+        {
+            "role": "counselor",
+            "text": "<think><assessment>进入来访动机与期待。先让孩子说，再邀请家长补充，以确保目标对齐。</assessment><client_state>孩子愿意表达；家长期待未知。</client_state><skill>33:耐心倾听来访者叙述</skill><strategy>提出一个开放问题，了解促使此时来咨询的主要原因。</strategy></think>强强，最近让你想来聊聊的事情，最主要的是什么？"
+        },
+        {
+            "role": "client",
+            "text": "我老忍不住拔头发。有时候还拔眉毛和睫毛。写作业或者看书的时候手就痒，拔一下就舒服点。后来又觉得后悔。"
+        },
+        {
+            "role": "counselor",
+            "text": "<think><assessment>在孩子说明后，邀请家长补充期待与目标，完善信息来源。</assessment><client_state>孩子已给出主诉；需家长视角。</client_state><skill>34:尊重来访者感受并处理顾虑</skill><strategy>请家长简短说希望看到的变化。</strategy></think>谢谢强强说得这么清楚。妈妈也可以说说，您最希望哪方面先有一点变化？比如写作业时的状态、拔毛次数，或者和同学/妹妹的相处？"
+        },
+        {
+            "role": "client",
+            "text": "（妈妈）她写作业拖拉、注意力不集中，拔毛让我很担心。还有跟同学冲突、对妹妹也不太友好，我希望都能好一些。"
+        },
+        {
+            "role": "counselor",
+            "text": "<think><assessment>开始系统化评估拔毛行为。先问最近一周的频率与典型情境，保持问题数量不超过两个。</assessment><client_state>愿意合作，能描述体验。</client_state><skill>49:询问主诉问题的频率与持续时间; 47:询问主诉问题的行为表现</skill><strategy>询问最近一周的发生频率与最常见的发生场景。</strategy></think>帮我看看，最近一周，大概多久会出现一次拔毛或者强烈的冲动？通常是在做什么的时候最容易发生？"
+        },
+        {
+            "role": "client",
+            "text": "基本每天都有，写作业和看书的时候最多。玩的时候和睡觉不会。有人在旁边也不怎么拔。"
+        },
+        {
+            "role": "counselor",
+            "text": "<think><assessment>补充身体感受与情绪强度的词语锚点，有助于后续目标量化。</assessment><client_state>能识别信号，适合进一步具体化。</client_state><skill>46:询问主诉问题的生理表现; 45:询问主诉问题的具体情绪表现</skill><strategy>询问当时身体最明显感觉与紧张程度的词语锚点（轻微/中等/很强）。</strategy></think>当那个冲动来时，你身体最明显的感觉是什么？那种紧张更像是轻微的、还是中等、或者很强的紧绷感？"
+        },
+        {
+            "role": "client",
+            "text": "头皮会紧紧的，心跳有点快，手指痒痒的。写作业卡壳的时候是很强的紧绷，别的时候可能中等。"
+        },
+        {
+            "role": "counselor",
+            "text": "<think><assessment>梳理一次完整的横向链条：情境—想法—情绪/身体—行为—后果；先从自动化思维入手。</assessment><client_state>具体、可合作。</client_state><skill>33:耐心倾听来访者叙述</skill><strategy>单一苏格拉底式问题，聚焦当时脑海里最先冒出的念头。</strategy></think>当你卡住、感觉很紧的时候，脑子里最先冒出来的想法是什么？"
+        },
+        {
+            "role": "client",
+            "text": "我会想“我现在只能拔一下，拔了才能继续写”。"
+        },
+        {
+            "role": "counselor",
+            "text": "<think><assessment>继续链条，了解一次持续时长与停止因素，并保持两问以内。</assessment><client_state>链条逐步清晰。</client_state><skill>49:询问主诉问题的频率与持续时间; 47:询问主诉问题的行为表现</skill><strategy>询问一次通常持续多久，以及是什么让她停下来。</strategy></think>一回通常会持续多久？是什么会让你停下来呢？"
+        },
+        {
+            "role": "client",
+            "text": "可能几分钟吧。如果妈妈走过来或者我想到要被看到，我就会停。拔完会松口气，但有点后悔。"
+        },
+        {
+            "role": "counselor",
+            "text": "<think><assessment>补充风险排查：是否有咀嚼/吞咽毛发；以及被他人注视时的社交反应与羞耻感。</assessment><client_state>愿意谈敏感点。</client_state><skill>47:询问主诉问题的行为表现; 50:询问主诉问题对社会功能的影响</skill><strategy>两问内：确认是否会咀嚼/吞咽；被同学注视时通常怎样应对。</strategy></think>你会把拔下来的毛放到嘴里去咬或吞吗？当同学注意到你的眉毛或睫毛时，你一般会怎么做？"
+        },
+        {
+            "role": "client",
+            "text": "不会，那个好恶心。我不喜欢别人盯着我，我会躲开、低头或者看别的地方，怕他们笑我。"
+        },
+        {
+            "role": "counselor",
+            "text": "<think><assessment>转入学校功能：注意力、小动作、作业拖延与老师反馈；分步推进避免多问。</assessment><client_state>羞耻与回避存在，学校功能可能受影响。</client_state><skill>59:评估教育背景与学习压力</skill><strategy>单一问题，聚焦上课的专注度与小动作。</strategy></think>在课堂上，你的注意力和小动作现在是什么情况？"
+        },
+        {
+            "role": "client",
+            "text": "我会转笔、抖腿，老师有时候提醒我。作业我不喜欢的题目就拖好久。"
+        },
+        {
+            "role": "counselor",
+            "text": "<think><assessment>了解同伴互动与是否有冲突，选择一个最近的片段进入横向链条。</assessment><client_state>有可探索的事件。</client_state><skill>60:识别其他角色中的表现与互动; 47:询问主诉问题的行为表现</skill><strategy>请强强选最近一次与同学的矛盾事件，描述发生了什么。</strategy></think>我们挑最近一次和同学的矛盾来说说，可以吗？那次是发生了什么事？"
+        },
+        {
+            "role": "client",
+            "text": "上周有个男生没问我就拿了我的橡皮，我很气，就打了他一下。他也推我，然后老师批评我们。"
+        },
+        {
+            "role": "counselor",
+            "text": "<think><assessment>用苏格拉底式提问引出自动化思维，继续横向链条。</assessment><client_state>愤怒与被侵犯感明显。</client_state><skill>45:询问主诉问题的具体情绪表现</skill><strategy>单一问题，聚焦当时脑海中的念头。</strategy></think>当时你脑海里最先想的是什么呢？"
+        },
+        {
+            "role": "client",
+            "text": "我觉得他是故意的，我得让他知道别惹我。"
+        },
+        {
+            "role": "counselor",
+            "text": "<think><assessment>完成链条的情绪与后果评估，并用词语锚点量化情绪强度。</assessment><client_state>愤怒后可能有后悔与委屈混合。</client_state><skill>50:询问主诉问题对社会功能的影响; 45:询问主诉问题的具体情绪表现</skill><strategy>询问事后结果与情绪强度是中等还是很强。</strategy></think>后来老师怎么处理的？你心里的那种生气是中等的，还是很强的？之后更像是后悔、委屈，还是都有一点？"
+        },
+        {
+            "role": "client",
+            "text": "老师批评我们，还换了座位。那时候是很强的生气，后来有点后悔，也觉得他不讲礼貌。"
+        },
+        {
+            "role": "counselor",
+            "text": "<think><assessment>转入家庭系统与兄妹互动，探索与妹妹的相处，选一个最近的小插曲，体现情感与行为连接。</assessment><client_state>可能存在偏心感与控制需求。</client_state><skill>56:询问来访者家庭关系</skill><strategy>单一问题，询问最近和妹妹发生过什么让你不开心的事。</strategy></think>在家里，你和妹妹最近有没有发生过让你不开心的事？可以选一件小事说说。"
+        },
+        {
+            "role": "client",
+            "text": "她老抢我的东西，弄乱我拼好的积木。我有时候会推她一下，妈妈就说我不懂事。"
+        },
+        {
+            "role": "counselor",
+            "text": "<think><assessment>继续家庭互动，了解与妈妈的常见冲突主题与父亲参与度。</assessment><client_state>有委屈与不被理解体验。</client_state><skill>56:询问来访者家庭关系</skill><strategy>单一问题，聚焦与妈妈最常因为什么吵；下一轮再问爸爸的角色。</strategy></think>你和妈妈平时最容易因为什么事情起冲突呢？"
+        },
+        {
+            "role": "client",
+            "text": "主要是作业。她总催我快点，我就烦，我们会吵架。"
+        },
+        {
+            "role": "counselor",
+            "text": "<think><assessment>补充父亲的参与度与在家的角色。</assessment><client_state>妈妈冲突明确，爸爸角色未知。</client_state><skill>56:询问来访者家庭关系</skill><strategy>单一问题，询问爸爸在这些事情上通常会怎么做。</strategy></think>那爸爸呢？在这些事情上他通常会怎么做？"
+        },
+        {
+            "role": "client",
+            "text": "爸爸工作忙，常常不在家，也不怎么管作业的事，只是偶尔说让我听话。"
+        },
+        {
+            "role": "counselor",
+            "text": "<think><assessment>温和触及一次较严重的家庭事件以完善时间线与情感影响。</assessment><client_state>可能存在被忽视或偏心感。</client_state><skill>56:询问来访者家庭关系</skill><strategy>中性询问是否发生过更严重的事情，比如有人一段时间不在家。</strategy></think>有没有发生过比较严重的一次，比如你们很久不说话，或者有人有一段时间不在家？"
+        },
+        {
+            "role": "client",
+            "text": "有一次我和妈妈吵得很厉害，她去奶奶家住了三天。我那几天很难过。"
+        },
+        {
+            "role": "counselor",
+            "text": "<think><assessment>纵向轻触：在那段时间，孩子可能把妈妈的离开和“不被爱”联系，需以探询方式而非贴标签。</assessment><client_state>脆弱、委屈，对爱与偏心有担心。</client_state><skill>33:耐心倾听来访者叙述</skill><strategy>单一问题，使用‘如果……意味着什么？’的格式轻触核心担心。</strategy></think>在那三天里，如果妈妈不在家、或者不按你的想法做，你脑子里会不会冒出“她是不是不在乎我，或者更喜欢妹妹”这样的担心？"
+        },
+        {
+            "role": "client",
+            "text": "会，我会这么想。虽然她后来也会抱抱我，但那时候就觉得很难受。"
+        },
+        {
+            "role": "counselor",
+            "text": "<think><assessment>初步风险与安全评估。确认皮肤损伤程度与自/他伤想法，并用词语锚点标注情绪强度。</assessment><client_state>愿意谈安全相关内容。</client_state><skill>48:询问主诉问题的严重程度</skill><strategy>两问：是否破皮/出血/感染；当非常生气时是否出现自/他伤想法，并用词语锚点标注强度。</strategy></think>最近拔毛有没有出现破皮、出血或感染的情况？当你非常生气时，那个冲动更像是中等还是很强？有没有想过伤害自己或别人？"
+        },
+        {
+            "role": "client",
+            "text": "不会出血，也没感染，就是红红的、有点疼。很生气的时候是很强的冲动，我不会想伤害自己。有时候会想推人，妈妈一般会拦住我。"
+        },
+        {
+            "role": "counselor",
+            "text": "<think><assessment>共创一个简短的安全/降级计划，先邀请孩子提出主意，再补充并与家长协作。</assessment><client_state>可接受指导，适合合作式制定。</client_state><skill>34:尊重来访者感受并处理顾虑</skill><strategy>先问孩子在强紧绷或大生气时的自选方法，再补充‘暂停+三次呼吸+捏软球+寻求成人+环境管理’，征询家长配合。</strategy></think>当你感觉“很强的紧绷”或者快要失控生气时，你觉得有什么办法能把它先降到“中等”或者“轻一点”？你可以先说1—2个主意，我们再一起补充。"
+        },
+        {
+            "role": "client",
+            "text": "我可以先停一下，深呼吸。我捏橡皮也能让我分心一点吧。"
+        },
+        {
+            "role": "counselor",
+            "text": "<think><assessment>在孩子提出策略后，补充并结构化为安全计划，邀请家长参与。</assessment><client_state>自我效能感萌芽。</client_state><skill>34:尊重来访者感受并处理顾虑</skill><strategy>把孩子的策略整合为‘暂停信号+三次慢呼吸+捏软球/搓橡皮+需要时找大人+家里做环境管理’，请家长确认可行性。</strategy></think>很好，我们把它整理一下：当出现很强紧绷或大生气时，先做“暂停信号”，接着三次慢呼吸；手去捏一个小软球或在桌下搓橡皮，等情绪降到中等或更轻，再决定怎么做。如果还是控制不住，立刻找老师或妈妈；家里对容易被抢的物品先分开放。妈妈，您觉得这样安排可行吗？"
+        },
+        {
+            "role": "client",
+            "text": "（妈妈）可行，我们回去准备小软球，也跟老师沟通。强强：我可以试试。"
+        },
+        {
+            "role": "counselor",
+            "text": "<think><assessment>补充既往就医与评估信息，了解是否看过专科/咨询、是否用药及检查结果。</assessment><client_state>家长在场，信息可获取。</client_state><skill>65:询问精神科就诊经历; 66:询问既往心理问题和心理咨询经历</skill><strategy>单一合并问题，了解既往就医、评估与用药情况。</strategy></think>之前有没有在医院或心理门诊看过医生、做过评估或咨询？有没有用过药物或做过相关检查？"
+        },
+        {
+            "role": "client",
+            "text": "（妈妈）去过儿童精神科，做过检查，医生说心电图脑电图都没问题。没用药，量表提示注意力和冲动方面偏高。"
+        },
+        {
+            "role": "counselor",
+            "text": "<think><assessment>了解生活方式支持：睡眠、饮食、运动，评估基础资源与节律。</assessment><client_state>稳定、可述。</client_state><skill>63:询问健康相关的生活习惯</skill><strategy>单一问题，询问三方面总体情况。</strategy></think>最近你的睡眠、吃饭和运动整体怎么样？"
+        },
+        {
+            "role": "client",
+            "text": "睡得还行，偶尔做梦。吃饭也可以，运动我喜欢跑步，课间经常在跑。"
+        },
+        {
+            "role": "counselor",
+            "text": "<think><assessment>补充老师反馈与同伴关系，完善学校功能画像。</assessment><client_state>可能存在座位调整与被同学注视的困扰。</client_state><skill>50:询问主诉问题对社会功能的影响; 59:评估教育背景与学习压力</skill><strategy>单一问题，询问老师近期的具体反馈与是否有朋友。</strategy></think>老师最近有没有给过具体的反馈？在同学里，有没有几个关系比较好的朋友？"
+        },
+        {
+            "role": "client",
+            "text": "（妈妈）老师说要多提醒她注意力，座位换过几次。强强有一两个玩的好的，但也有人不太愿意跟她同桌。"
+        },
+        {
+            "role": "counselor",
+            "text": "<think><assessment>基于已收集信息，协作设定初步目标领域，并让孩子选择优先项，增强参与感。</assessment><client_state>改变动机明确：减少拔毛、降低冲突、提升专注与被接纳。</client_state><skill>121:确认咨询目标的关键领域</skill><strategy>用通俗语言总结目标领域，让强强选最想先改变的一项。</strategy></think>听下来，我们要一起努力的几件事包括：写作业时把“很强的紧绷”调到更轻、减少拔毛；学会不用打架也能保护自己；上课更专注一点。强强，你最想先从哪一件开始？"
+        },
+        {
+            "role": "client",
+            "text": "先把拔毛变少吧。我不想被别人盯着看。然后就是不要老跟人打架。"
+        },
+        {
+            "role": "counselor",
+            "text": "<think><assessment>把目标具体化并可测量，设定一周的观察与练习任务，用词语锚点而非数字，确认可行性。</assessment><client_state>愿意尝试，有自我效能萌芽。</client_state><skill>122:设定咨询目标的具体行为或情绪改变; 123:讨论咨询目标的可达成性</skill><strategy>提出具体记录表与策略，并征求是否能先试一周。</strategy></think>那我们把它具体一点：这周写作业时，先用“暂停+三次慢呼吸+捏软球或搓橡皮”，目标是把那种“很强的紧绷”调到“中等或轻一点”，尽量不拔，或最多一两次。你和妈妈一起用一张小记录表，写下：什么时候、在做什么、当时的想法和身体感觉是轻、中等还是很强、你用了哪个办法。这样安排，先试一周，你觉得行吗？"
+        },
+        {
+            "role": "client",
+            "text": "可以。我把小捏捏球放在书桌旁边，妈妈可以提醒我。"
+        },
+        {
+            "role": "counselor",
+            "text": "<think><assessment>促成即时承诺，确定24小时内的最小行动，强化执行动机。</assessment><client_state>积极、愿意行动。</client_state><skill>122:设定咨询目标的具体行为或情绪改变</skill><strategy>请她说出24小时内最容易做到的一步。</strategy></think>在接下来的24小时里，你愿意做的最容易的一步是什么？"
+        },
+        {
+            "role": "client",
+            "text": "回家把捏捏球放好，今晚写作业用一次“暂停+三次呼吸+捏球”。"
+        },
+        {
+            "role": "counselor",
+            "text": "<think><assessment>说明后续会谈频率与方式，建立预期，让家庭决定是否继续。</assessment><client_state>家庭配合度较高，需要明确节奏。</client_state><skill>124:向来访者说明预计的咨询次数和频率</skill><strategy>提出建议频率与阶段长度，邀请确认。</strategy></think>关于后续安排，我建议每周一次，先做8到12次为一个阶段；每次我们会练注意力和情绪的小练习，也会一起回顾记录表，并和妈妈一起复盘要点。这样的频率和方式，你们觉得合适吗？"
+        },
+        {
+            "role": "client",
+            "text": "（妈妈）合适。我可以每周这个时间带她来。强强：如果有小游戏，那我更愿意来。"
+        },
+        {
+            "role": "counselor",
+            "text": "<think><assessment>进入总结与收尾，巩固共识与下一步安排，肯定努力与计划感。</assessment><client_state>被理解、动机被激活。</client_state><skill>32:表达理解与共情; 39:向来访者说明会谈内容安排与问题询问</skill><strategy>简要回顾今天要点与安全计划，提醒下次带记录，并以鼓励语结束。</strategy></think>今天我们一起做了几件重要的事：确定了保密与合作的方式；了解了写作业/看书时更容易出现“很强紧绷”和拔毛、拔后会短暂舒服但随后后悔，也会因为被注视而想回避；聊了在学校的注意力与一次冲突、和妹妹的争抢，以及妈妈离家三天带给你的难受与担心。我们共创了一个安全小方案（暂停信号、三次慢呼吸、捏软球/搓橡皮、需要时找大人、家里环境管理），并约定这周用记录表把“很强”往“中等或轻一点”去调，今晚先做一次最小行动。谢谢你们今天的努力，下一次把记录带来，我们就从这些练习的体验继续出发。"
+        }
+    ]
+}
