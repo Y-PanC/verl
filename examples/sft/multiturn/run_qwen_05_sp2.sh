@@ -18,7 +18,7 @@ torchrun --nnodes=1 --nproc_per_node=$nproc_per_node \
     data.val_files=$HOME/data/multiturn/test.parquet \
     data.multiturn.enable=true \
     data.multiturn.messages_key=messages \
-    data.micro_batch_size=4 \
+    data.micro_batch_size_per_gpu=4 \
     model.partial_pretrain=Qwen/Qwen2.5-0.5B-Instruct \
     trainer.default_local_dir=$save_path \
     trainer.project_name=multiturn-sft \

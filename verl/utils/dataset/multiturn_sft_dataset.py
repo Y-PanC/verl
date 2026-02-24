@@ -75,6 +75,18 @@ class MultiTurnSFTDataset(Dataset):
     ):
         # Set defaults and extract parameters from config if provided
         config = config or {}
+        multiturn_config = config.get("multiturn", {}) if hasattr(config, "get") else {}
+
+        def _get_config_value(key: str, default):
+            value = config.get(key, None) if hasattr(config, "get") else None
+            if value is not None:
+                return value
+            if hasattr(multiturn_config, "get"):
+                value = multiturn_config.get(key, None)
+                if value is not None:
+                    return value
+            return default
+
         self.pad_mode = config.get("pad_mode", "right")
         assert self.pad_mode in ["right", "no_padding"], (
             f"Expect pad_mode to be 'right' or 'no_padding'. Got {self.pad_mode}"
@@ -82,20 +94,22 @@ class MultiTurnSFTDataset(Dataset):
         self.truncation = config.get("truncation", "error")
         # for right padding
         self.max_length = config.get("max_length", 1024)
-        # Get messages_key from the new multiturn config structure
-        self.messages_key = config.get("messages_key", "messages")
+        # Support both:
+        # - new config: data.messages_key / data.tools_key / data.enable_thinking_key
+        # - legacy config: data.multiturn.messages_key / data.multiturn.tools_key / data.multiturn.enable_thinking_key
+        self.messages_key = _get_config_value("messages_key", "messages")
         self.image_key = config.get("image_key", "images")
         self.video_key = config.get("video_key", "videos")
         self.image_patch_size = config.get(
             "image_patch_size", processor.image_processor.patch_size if processor else None
         )
-        self.tools_key = config.get("tools_key", "tools")
-        self.enable_thinking_key = config.get("enable_thinking_key", "enable_thinking")
+        self.tools_key = _get_config_value("tools_key", "tools")
+        self.enable_thinking_key = _get_config_value("enable_thinking_key", "enable_thinking")
         self.apply_chat_template_kwargs = config.get("apply_chat_template_kwargs", {})
         self.shuffle = config.get("shuffle", False)
         self.seed = config.get("seed")
         self.max_samples = max_samples
-        self.ignore_input_ids_mismatch = config.get("ignore_input_ids_mismatch", False)
+        self.ignore_input_ids_mismatch = _get_config_value("ignore_input_ids_mismatch", False)
         assert self.truncation in ["error", "left", "right"]
 
         if not isinstance(parquet_files, list | ListConfig):
