@@ -1,1 +1,137 @@
 /mnt/shared-storage-user/cl4mind/models/
+
+Plan
+
+  - 跑通仓库自带的 multi-turn SFT demo（先 1 step 冒烟测试），再替换成你的数据与模型。
+  - 理清 3 件事：数据格式（messages）、loss 计算位置（只训 assistant）、训练配置（batch/len/并行/ckpt）。
+  - 最后把 FSDP 分片 checkpoint 导出成 HuggingFace 格式，方便推理/后续 PPO。
+
+  怎么做（multi-turn SFT 最短路径）
+
+  - 入口 Trainer：verl/trainer/fsdp_sft_trainer.py:843（Hydra 配置名 sft_trainer）。
+  - 打开 multi-turn：data.multiturn.enable=true，Trainer 会在 create_sft_dataset() 里切到 MultiTurnSFTDataset（verl/trainer/
+    fsdp_sft_trainer.py:851）。
+  - 直接用仓库示例脚本起跑：examples/sft/multiturn/run_qwen_05_sp2.sh:15（已经包含 data.multiturn.enable=true、messages_key 等）。
+
+  数据格式（你最需要先对齐的点）
+
+  - Parquet 每行一条对话，至少一列 messages（可改名，但要配 data.multiturn.messages_key）。
+  - messages 必须是“真正的嵌套结构”list[dict]，而不是 JSON 字符串；每个 dict 至少有：
+      - role: "system" | "user" | "assistant" | ...
+      - content: str
+  - 监督信号来自哪里：MultiTurnSFTDataset 只对 role=="assistant" 的 token 打 loss，user/system 全部 mask（见 verl/utils/dataset/
+    multiturn_sft_dataset.py:180，loss_mask 逻辑在 :225）。
+
+  关键参数与坑位（按“最常踩”排序）
+
+  - data.multiturn.enable=true：不设会走单轮 SFTDataset，训练目标完全不同（verl/trainer/fsdp_sft_trainer.py:860）。
+  - data.max_length + data.truncation：multi-turn 很容易超长；error 会直接报错，left/right 会截断（verl/utils/dataset/
+    multiturn_sft_dataset.py:94 起）。
+  - data.train_batch_size vs data.micro_batch_size_per_gpu：
+      - Trainer 会把全局 batch 按 DP 做归一化再 dataloader（verl/trainer/fsdp_sft_trainer.py 里 _normalize_config_bsz()）。
+      - 每步内部用 micro_batch_size_per_gpu 做梯度累积（training_step() 里 split）。
+  - chat template 一致性检查：MultiTurn 的实现是“逐条 message 单独 apply_chat_template 再拼接”，并做 sanity_check；某些模型（尤其带
+    thinking 模式）可能不一致，必要时加 data.ignore_input_ids_mismatch=true（见 verl/utils/dataset/multiturn_sft_dataset.py:402）。
+  - 性能开关：
+      - use_remove_padding=true、ulysses_sequence_parallel_size>1 是更进阶的性能模式（示例脚本里已开：examples/sft/multiturn/
+        run_qwen_05_sp2.sh:28）；新手建议先关掉，确认数据与训练完全 OK 再开。
+  - FSDP Trainer 的 val_files：当前 fsdp_sft_trainer 路径里会创建 val dataset（不太适合传 null）；没验证集就先切一小份，或临时用 train
+    代替并把 trainer.test_freq=-1。
+
+  想“看懂每个部件怎么串起来”，建议按这条线读代码
+
+  - 数据如何变成 token + loss_mask：verl/utils/dataset/multiturn_sft_dataset.py:56
+  - Trainer 如何选数据集：verl/trainer/fsdp_sft_trainer.py:851
+  - loss 是怎么用 loss_mask 算出来的（以及 remove-padding/SP 分支）：verl/trainer/fsdp_sft_trainer.py 里的 _compute_loss_and_backward()
+
+  仓库里已经写好的中文实战文档（强烈建议直接按它走）
+
+  - SFT_POLICY_操作说明.md:1（里面把“数据准备→参数解释→多轮 SFT 从 0 到 1→导出 HF→推理验收”写成了 checklist；multi-turn 重点在第 2.2 和
+    3.2 节）。
+
+  Commands
+
+  - git rev-parse --show-toplevel
+  - git status -sb
+  - sed -n '1,200p' examples/sft/multiturn/run_qwen_05_sp2.sh
+  - sed -n '1,460p' verl/utils/dataset/multiturn_sft_dataset.py
+  - sed -n '1,200p' verl/trainer/fsdp_sft_trainer.py
+  - sed -n '1,260p' SFT_POLICY_操作说明.md
+  - python -c "import verl..."（未激活 p_verl，并因缺少依赖失败：ModuleNotFoundError: No module named 'ray'）
+
+  Changes
+
+  - 无（本次仅阅读仓库代码与文档给出操作路径）。
+
+  Validation（你可以直接复制跑的最小验证流程）
+
+  - conda activate p_verl && python examples/data_preprocess/multiturn.py --local_dir ~/data/multiturn
+  - conda activate p_verl && bash examples/sft/multiturn/run_qwen_05_sp2.sh 8 checkpoints/multiturn-sft trainer.total_training_steps=1
+    ulysses_sequence_parallel_size=1 use_remove_padding=false
+
+  Rollback
+
+  - 无代码改动，无需回滚。
+
+  如果你把下面 4 个信息发我，我可以帮你把“你的数据→可跑的 run.sh + 关键超参”具体落到一套配置上：基座模型名/路径、GPU 型号与张数、数据源
+  格式（jsonl/数据库/自定义字段）、你对 max_length 的目标（比如 2k/4k/8k）。
+
+
+核心方法：用“最小闭环 + 代码对照 + 单点实验”来学
+
+  - 你每推进一步项目，都强制回答 3 个问题：输入是什么、张量长什么样、loss 到底训了哪些 token；然后用 1 个小实验把它验证出来（别只靠“看起来应该是这样”）。
+
+  推荐路线图（边做边掌握）
+
+  1. 跑通官方最小闭环（1 step 冒烟）
+
+  - 跑：conda activate p_verl && bash examples/sft/multiturn/run_qwen_05_sp2.sh 1 checkpoints/smoke trainer.total_training_steps=1 ulysses_sequence_parallel_size=1
+    use_remove_padding=false
+  - 读：入口脚本 examples/sft/multiturn/run_qwen_05_sp2.sh:15，Trainer 主流程 verl/trainer/fsdp_sft_trainer.py:843
+
+  2. 把你的数据做成“可训练格式”，并做 3 类验收
+
+  - 数据格式：每行一条对话，列 messages 为 list[dict]（不是字符串 JSON）；角色至少有 user/assistant，且要有 assistant 才有监督信号。
+  - 结构验收：抽样打印 type(messages)、前 2 条 message、role 分布。
+  - 长度验收：统计 token_len 分布，决定 data.max_length 与 data.truncation。
+  - 读：多轮数据集实现 verl/utils/dataset/multiturn_sft_dataset.py:56；对应的单测是你最好的“行为说明书”tests/utils/dataset/test_multiturn_sft_dataset_on_cpu.py:47
+
+  3. 掌握“loss 到底训哪里”：做一次可视化式自检
+
+  - 关键事实：Multi-turn 只对 role=="assistant" 的 token 计算 loss（verl/utils/dataset/multiturn_sft_dataset.py:225），并把 assistant 前缀（generation prompt）mask 掉（verl/utils/
+    dataset/multiturn_sft_dataset.py:228）。
+  - 你要做的实验：对一条样本解码 tokenizer.decode(input_ids[loss_mask==1])，必须只看到 assistant 文本（单测也在这么验收：tests/utils/dataset/
+    test_multiturn_sft_dataset_on_cpu.py:84）。
+
+  4. 搞懂 batch/梯度累积：把“能跑”变成“可控”
+
+  - 你需要明确：data.train_batch_size 是全局 batch；Trainer 会按 DP 做归一化，然后用 data.micro_batch_size_per_gpu 拆 micro-batch 做累积（verl/trainer/fsdp_sft_trainer.py 的
+    _normalize_config_bsz() 和 training_step()）。
+  - 你的项目里调参顺序建议固定为：先降 data.micro_batch_size_per_gpu → 再降 data.max_length → 再开 model.enable_gradient_checkpointing/LoRA → 最后再考虑 use_remove_padding/
+    ulysses_sequence_parallel_size。
+
+  5. Checkpoint / 恢复 / 导出：把训练产物变成可用模型
+
+  - 先学会看懂输出目录：trainer.default_local_dir/global_step_<N>/（FSDP 分片 + data.pt）。
+  - 学会恢复：trainer.resume_mode=auto|resume_path（逻辑在 verl/trainer/fsdp_sft_trainer.py）。
+  - 学会导出 HF：conda activate p_verl && python -m verl.model_merger merge --backend fsdp --local_dir <.../global_step_N> --target_dir <hf_dir>（细节在 SFT_POLICY_操作说
+    明.md:520）。
+
+  每个部件你需要考虑什么（速查）
+
+  - 数据/预处理：role 映射是否正确、是否包含 system 约束、是否有超长对话、是否有脏样本（空 assistant/重复/隐私）。
+  - tokenization/chat template：训练与推理模板是否一致；是否出现 input_ids 不一致（可用 data.ignore_input_ids_mismatch=true 先跑通，但要弄清原因：verl/utils/dataset/
+    multiturn_sft_dataset.py:402）。
+  - dataset/padding：FSDP SFT 默认是右侧 padding；Engine SFT 才更偏 pad_mode=no_padding + collator（对照 verl/trainer/sft_trainer.py:160 和 verl/utils/dataset/
+    dataset_utils.py:23）。
+  - 训练器/分布式：DP/SP 数据分发、梯度裁剪、学习率 warmup、是否出现 NaN/grad_norm 非有限（训练里会跳过更新）。
+  - 产物与评估：val loss 只代表拟合，不代表质量；必须做推理抽检（尤其是你这种多轮场景）。
+
+  建议你“真正掌握”的学习方式（最有效）
+
+  - 每推进一个里程碑，都做一次“代码对照”：
+      - 这一步配置项写在哪个 YAML（verl/trainer/config/sft_trainer.yaml:1）？
+      - 运行时在哪段代码生效（Dataset / Trainer 的具体行）？
+      - 我能用一个 20 行脚本把中间张量和 loss_mask 打印出来验证吗？
+  - 只要你愿意，我可以按你的数据 schema（列名/字段）帮你写一个“数据审计 + 单样本 loss_mask 可视化”的小脚本，作为你以后排查任何多轮数据问题的固定工具。你把 messages 的真实样例（去隐
+    私）和目标基座模型名发我就行。

@@ -1,0 +1,532 @@
+{
+    "client_id": "13",
+    "session_number": 1,
+    "session_dialogue": [
+        {
+            "role": "assistant",
+            "content": "<think><assessment>首次见面，来访者可能紧张。我需要先表达欢迎与理解，并简要说明会谈方式，降低不确定感。</assessment><client_state>初次到访，可能兼有焦虑与期待。</client_state><skill>32:在会谈开始时，通过语言表达对来访者情绪的理解，并展示共情; 36:在会谈开始时，咨询师需要向来访者清晰地说明本次会谈的主题与任务</skill><strategy>先欢迎与感谢，再用一句话说明今天以了解与评估为主，并征询是否接受我适度做记录与引导。</strategy></think>你好，欢迎你来。谢谢你愿意迈出这一步，这不容易。今天我们主要是先了解与评估你的情况，我可能会做些简要记录、必要时做温和的引导，你觉得这样可以吗？"
+        },
+        {
+            "role": "user",
+            "content": "可以的。"
+        },
+        {
+            "role": "assistant",
+            "content": "<think><assessment>对方同意结构化方式。需要共同确认今天的大致顺序，增强合作感。</assessment><client_state>愿意配合、略紧张但稳定。</client_state><skill>37:咨询师在会谈开始时，需向来访者介绍整个咨询阶段的安排，预期目标及后续步骤; 38:咨询师应解释会谈的时间安排与目标</skill><strategy>简要提出今天的几个环节，并用一个征询式问题确认优先顺序。</strategy></think>那我们先约定个顺序：基础信息、家庭与同学朋友的支持、过往就医经历、你现在最困扰的事和期待、这周的睡眠与情绪等简要评估、必要的风险与安全、最后选一个具体片段做个小梳理并定下下周计划。这个顺序你觉得合适吗？"
+        },
+        {
+            "role": "user",
+            "content": "嗯，挺清楚的，就按这个来。"
+        },
+        {
+            "role": "assistant",
+            "content": "<think><assessment>开始基础信息与称谓确认。</assessment><client_state>合作、清晰。</client_state><skill>115:在会谈开始阶段，咨询师通过询问来访者的年龄、性别、婚育、职业、文化程度、宗教信仰、居住状况等个人基本信息; 40:咨询师询问来访者的基本个人信息，如年龄、性别、婚育状况、职业、文化程度、宗教信仰和居住状况</skill><strategy>先确认称谓与姓名，以尊重感切入。</strategy></think>我该怎么称呼你更舒服？也想确认一下你的名字。"
+        },
+        {
+            "role": "user",
+            "content": "我叫A，就叫我A就好。"
+        },
+        {
+            "role": "assistant",
+            "content": "<think><assessment>继续收集基本人口学信息，控制每轮一个问题。</assessment><client_state>表达清晰。</client_state><skill>115:在会谈开始阶段，咨询师通过询问来访者的年龄、性别、婚育、职业、文化程度、宗教信仰、居住状况等个人基本信息; 40:咨询师询问来访者的基本个人信息，如年龄、性别、婚育状况、职业、文化程度、宗教信仰和居住状况</skill><strategy>询问年龄与当前学业阶段。</strategy></think>A，你现在多大了？目前处在什么年级？"
+        },
+        {
+            "role": "user",
+            "content": "19岁，大一。"
+        },
+        {
+            "role": "assistant",
+            "content": "<think><assessment>继续基本信息：学校与专业，居住与主要经济来源。</assessment><client_state>稳定、配合。</client_state><skill>115:在会谈开始阶段，咨询师通过询问来访者的年龄、性别、婚育、职业、文化程度、宗教信仰、居住状况等个人基本信息; 40:咨询师询问来访者的基本个人信息，如年龄、性别、婚育状况、职业、文化程度、宗教信仰和居住状况</skill><strategy>单轮询问学校专业；下一轮再问居住与经济来源。</strategy></think>你就读的是哪所学校、哪个专业呢？"
+        },
+        {
+            "role": "user",
+            "content": "在一所高职院校，工科类专业。"
+        },
+        {
+            "role": "assistant",
+            "content": "<think><assessment>补充居住与经济来源。</assessment><client_state>持续配合。</client_state><skill>115:在会谈开始阶段，咨询师通过询问来访者的年龄、性别、婚育、职业、文化程度、宗教信仰、居住状况等个人基本信息; 44:咨询师询问来访者的居住环境和家庭居住状况</skill><strategy>询问住在哪里与生活费来源。</strategy></think>你现在主要住在哪里？日常生活费用一般来自哪里？"
+        },
+        {
+            "role": "user",
+            "content": "住校，宿舍四人间。生活费主要是家里提供。"
+        },
+        {
+            "role": "assistant",
+            "content": "<think><assessment>进入家庭与社交支持的探索，做好情绪验证并保持每轮一问。</assessment><client_state>开放、尚平稳。</client_state><skill>56:通过询问来访者的家庭结构与关系; 60:通过询问来访者在其他社会角色中的表现与互动</skill><strategy>先问家庭成员与相处方式。</strategy></think>可以说说你的家庭成员，以及你和家人的相处方式吗？"
+        },
+        {
+            "role": "user",
+            "content": "我是独生子，家里氛围总体还不错，但父母对我要求比较严格。"
+        },
+        {
+            "role": "assistant",
+            "content": "<think><assessment>从家庭转向同学与朋友的联系，探询近期变化。</assessment><client_state>平稳，愿意披露。</client_state><skill>56:通过询问来访者的家庭结构与关系; 60:通过询问来访者在其他社会角色中的表现与互动</skill><strategy>单轮询问同学朋友联系与支持感，是否有变化。</strategy></think>和同学、朋友目前的联系与支持感怎么样？最近有变化吗？"
+        },
+        {
+            "role": "user",
+            "content": "联系少了不少，最近学习状态不好，也更不想社交。还有，从小关系好的三个朋友都上了本科，最好的一个进了南大，我是专科，就有点不太想联系他们。"
+        },
+        {
+            "role": "assistant",
+            "content": "<think><assessment>出现同龄比较的线索，需要温和深入该事件：含情境、自动化思维、条件性假设、代偿策略。</assessment><client_state>有自卑与回避倾向，仍愿意谈。</client_state><skill>56:通过询问来访者的家庭结构与关系; 60:通过询问来访者在其他社会角色中的表现与互动</skill><strategy>先聚焦这类比较“对你意味着什么”，以引出自动化思维与条件性假设。</strategy></think>当你想到他们的升学情况时，这对你意味着什么？当时脑子里最先冒出来的念头是什么？"
+        },
+        {
+            "role": "user",
+            "content": "会觉得我不如他们，脑子里很快就跳出“我不行”。"
+        },
+        {
+            "role": "assistant",
+            "content": "<think><assessment>继续挖掘这类比较背后的“如果…就…”的条件性假设，并探索代偿策略。</assessment><client_state>能反思，情绪脆弱但可承载。</client_state><skill>56:通过询问来访者的家庭结构与关系; 60:通过询问来访者在其他社会角色中的表现与互动</skill><strategy>单轮追问：你对自己有没有类似“如果达不到某个层级就算失败”的内在要求？同时了解你倾向如何应对（更用功/疏远等）。</strategy></think>在这种比较里，你会不会对自己有一种内在要求，比如“如果达不到同龄人相近或更高的层级，就算失败”？遇到这种感觉时，你通常会怎么做来应对？"
+        },
+        {
+            "role": "user",
+            "content": "有点这种想法，所以我一直想着专升本，想用更努力来证明自己。也会减少联系，省得被比来比去。"
+        },
+        {
+            "role": "assistant",
+            "content": "<think><assessment>转向亲戚谈论升学的事件，探索自动化思维、条件性假设与回避策略。</assessment><client_state>羞耻与压力感可能上升。</client_state><skill>56:通过询问来访者的家庭结构与关系; 60:通过询问来访者在其他社会角色中的表现与互动</skill><strategy>单轮询问：亲戚谈起时你的感受与脑中想法是什么，你通常如何应对。</strategy></think>当亲戚谈到上大学的话题时，你当时最明显的感受和脑中想法是什么？你通常会怎么应对？"
+        },
+        {
+            "role": "user",
+            "content": "会觉得尴尬和压力一起上来，脑子里会冒出“我让他们失望了”。我就尽量回避，少联系。"
+        },
+        {
+            "role": "assistant",
+            "content": "<think><assessment>转入学习卡顿这一情境，探索“这次学不好=我整体不行”的假设，以及代偿策略（情绪化用功/强迫投入）。</assessment><client_state>焦虑与自责并存。</client_state><skill>59:评估教育背景与学习压力; 47:询问来访者主诉问题的行为表现</skill><strategy>单轮聚焦最近一次学习卡住的具体片段及当时的念头和行为。</strategy></think>说到学习，能挑一段最近最典型的卡住片段吗？当时你脑子里说了什么、又是怎么做的？"
+        },
+        {
+            "role": "user",
+            "content": "比如背英语单词，背半天记不住；高数很多题没思路。那时候我会想“这也学不好，我就是失败者”，然后就硬扛着学，越学越烦。"
+        },
+        {
+            "role": "assistant",
+            "content": "<think><assessment>补充家族中成功亲戚带来的比较，探索持续比较作为代偿策略的一部分。</assessment><client_state>压力提升，但仍愿意探索。</client_state><skill>56:通过询问来访者的家庭结构与关系; 60:通过询问来访者在其他社会角色中的表现与互动</skill><strategy>单轮询问是否也会和家族里某位成就显著的人比较，并在内心以此衡量自己。</strategy></think>家族里有没有谁的经历也会触发类似的比较？你会不会常拿那个人的成就来衡量自己？"
+        },
+        {
+            "role": "user",
+            "content": "有，我表哥研究生毕业又考了公务员。想到他就会觉得自己没什么成就，也会更着急。"
+        },
+        {
+            "role": "assistant",
+            "content": "<think><assessment>完成对四类事件的初探后，转入就医与评估经历，建立医疗史与当前辅助策略的脉络。</assessment><client_state>叙述连贯，情绪可承载。</client_state><skill>65:咨询师询问来访者是否曾在精神科就诊或住院; 66:咨询师询问来访者是否曾有过心理问题，是否曾接受过心理咨询</skill><strategy>单轮询问过往是否就诊、量表或药物及感受。</strategy></think>之前你是否看过心理/精神科医生、做过评估或量表、用过药物？这些经历对你有没有帮助或疑问？"
+        },
+        {
+            "role": "user",
+            "content": "去医院看过，医生说是抑郁情绪，焦虑也高。做过SAS和SDS，分数记得焦虑在60多，抑郁在50多。药没有规律吃，主要是先调整作息。"
+        },
+        {
+            "role": "assistant",
+            "content": "<think><assessment>明确主诉与期待，帮助设定短期优先目标。</assessment><client_state>动机在，焦虑/低落并存。</client_state><skill>116:咨询师需要详细了解来访者的主诉问题，包括问题的具体表现、严重程度与影响; 121:根据对来访者问题的诊断和概念化结果，与来访者共同明确咨询的关键目标领域</skill><strategy>单轮询问此刻最困扰的问题与希望先改善的两项。</strategy></think>此刻对你影响最大、最困扰的是什么？你最希望先改善的一两件事是什么？"
+        },
+        {
+            "role": "user",
+            "content": "睡不好、学习效率很低，整个人容易焦虑和低落。我想先把睡眠和学习状态稳住。"
+        },
+        {
+            "role": "assistant",
+            "content": "<think><assessment>补充保密原则、时长频次与合作方式，降低顾虑，巩固联盟。</assessment><client_state>对流程可能有轻度顾虑，愿意配合。</client_state><skill>37:咨询师在会谈开始时，需向来访者介绍整个咨询阶段的安排，预期目标及后续步骤; 38:咨询师应解释会谈的时间安排与目标</skill><strategy>简要说明保密范围与例外、频次时长、可能的家庭作业，并征询是否有疑问。</strategy></think>我也想和你确认保密与合作方式：我们的谈话会被妥善保密，只有在你或他人安全存在明显风险等法律例外时才会披露。一般每周一次、约50分钟；我们会共同设定目标，可能有一些简单的带回去的小练习。你对这些安排还有什么担心或偏好吗？"
+        },
+        {
+            "role": "user",
+            "content": "就怕记录被别人看到，其他都还好。"
+        },
+        {
+            "role": "assistant",
+            "content": "<think><assessment>需要安抚并具体说明记录保管与权限，降低焦虑。</assessment><client_state>轻度焦虑，寻求安全感。</client_state><skill>34:通过积极反应尊重来访者的感受; 35:通过言语和非言语方式表达对来访者的关怀和支持</skill><strategy>先验证担心，再具体说明保管与权限，并提供会后要点回执以增强掌控感。</strategy></think>谢谢你直说这个担心。记录仅用于你的咨询与必要的专业用途，受严格的权限保护，不会被无关人员查看。如果你愿意，我会在会后发给你一份今天的简要要点以便你核对。这样能让你更放心一些吗？"
+        },
+        {
+            "role": "user",
+            "content": "这样就放心多了。"
+        },
+        {
+            "role": "assistant",
+            "content": "<think><assessment>进入本周症状与功能的量化基线，按0–10评分建立追踪。</assessment><client_state>愿意配合结构化评估。</client_state><skill>48:询问来访者主诉问题的严重程度; 49:询问来访者主诉问题的发生频率和持续时间</skill><strategy>分项让其用0–10给睡眠困扰、食欲、专注效率、整体焦虑、整体低落打分。</strategy></think>为了后续更好地跟踪变化，请你用0到10来打分（10是最严重/困扰最大）：过去一周里，1) 睡眠困扰，2) 食欲下降，3) 学习专注与效率，4) 整体焦虑，5) 整体低落，各自大概是多少分？"
+        },
+        {
+            "role": "user",
+            "content": "睡眠困扰8到9吧；食欲大概5；专注和效率7到8；焦虑8；低落6。"
+        },
+        {
+            "role": "assistant",
+            "content": "<think><assessment>继续具体化睡眠结构，形成干预依据。</assessment><client_state>疲惫、愿意提供细节。</client_state><skill>48:询问来访者主诉问题的严重程度; 49:询问来访者主诉问题的发生频率和持续时间</skill><strategy>单轮了解入睡时长、夜醒、总时长与早醒状况。</strategy></think>这周一般几点上床，大概多久能睡着？夜里会醒几次、总睡多长时间、早醒情况怎么样？"
+        },
+        {
+            "role": "user",
+            "content": "十一点多上床，一两个小时才睡着。夜里容易醒，做梦多，早上五六点就醒了，再睡不太着，总共就四五个小时。"
+        },
+        {
+            "role": "assistant",
+            "content": "<think><assessment>安排量表作为基线补充（SAS/SDS），与会谈数据互证。</assessment><client_state>配合度好。</client_state><skill>75:使用焦虑量表评估来访者的焦虑水平; 76:使用抑郁量表评估来访者的抑郁症状</skill><strategy>邀请会后填写SAS/SDS，并说明用途与反馈方式。</strategy></think>如果你同意，会后再完成一次SAS和SDS，作为目前的量化基线，我下次会把结果和你的主观变化一起做反馈，你看可以吗？"
+        },
+        {
+            "role": "user",
+            "content": "可以。"
+        },
+        {
+            "role": "assistant",
+            "content": "<think><assessment>进行风险与安全评估，语气温和且直接。</assessment><client_state>暂未见高危迹象，但需确认。</client_state><skill>32:在会谈开始时，通过语言表达对来访者情绪的理解，并展示共情; 35:通过言语和非言语方式表达对来访者的关怀和支持</skill><strategy>单轮直接询问自伤/自杀想法、计划、行为，并简问物质使用。</strategy></think>接下来是固定会问的安全问题：最近有没有出现过“不想活”或伤害自己的想法、计划或行动？平时会不会用酒精或其他物质来缓解情绪？"
+        },
+        {
+            "role": "user",
+            "content": "没有计划和行动，偶尔觉得很累但不会做傻事。不喝酒，也不碰其他东西。"
+        },
+        {
+            "role": "assistant",
+            "content": "<think><assessment>在低风险前提下，联合制定简要安全计划，识别早期信号与自助步骤。</assessment><client_state>愿意合作，有行动意愿。</client_state><skill>35:通过言语和非言语方式表达对来访者的关怀和支持; 34:通过积极反应尊重来访者的感受</skill><strategy>单轮请其列出两三条“预警信号”，并选三步最可行的自助。下一轮再确认可联系的人与资源。</strategy></think>当情绪明显下滑前，哪些迹象会最早出现（比如更难入睡、刷手机停不下来、不太想说话）？在这些信号出现时，你最愿意先做哪三步自助？"
+        },
+        {
+            "role": "user",
+            "content": "会翻来覆去睡不着，然后一直刷手机，也不太想说话。我可以先做呼吸放松、把手机设置限时、给室友发个消息说我状态不太好。"
+        },
+        {
+            "role": "assistant",
+            "content": "<think><assessment>补充外部支持网络与紧急资源，完善安全计划。</assessment><client_state>愿意动用支持系统。</client_state><skill>35:通过言语和非言语方式表达对来访者的关怀和支持; 34:通过积极反应尊重来访者的感受</skill><strategy>单轮请其列出2-3位可联系的人，并确认校内心理中心/紧急资源的可用性。</strategy></think>当你需要帮助时，你愿意联系的两三位人是谁？校内心理中心或紧急求助电话对你来说是否方便使用？"
+        },
+        {
+            "role": "user",
+            "content": "我会联系我妈、一个高中同学，还有辅导员。校内心理中心我知道在哪，必要时会去。"
+        },
+        {
+            "role": "assistant",
+            "content": "<think><assessment>在信息充分的基础上，选一个具体学习片段做ABC，巩固“情境—思维—情绪/行为”的链条并为下周行动做铺垫。</assessment><client_state>可承载，愿意练习。</client_state><skill>86:识别并描述导致个体情绪反应的具体情境或诱因（Antecedent）; 87:帮助来访者识别他们在特定情境下的自动思维、核心信念或中间信念</skill><strategy>单轮请其选一个最近学习时刻并描述当时发生了什么（A）与脑中第一念头（B）。</strategy></think>我们挑一段最近学习的片段来练习：当时具体发生了什么（A）？你脑中第一反应的想法是什么（B）？"
+        },
+        {
+            "role": "user",
+            "content": "在图书馆背了半小时单词还是记不住，看到旁边的人做题很快。我脑子里冒出“我不行”。"
+        },
+        {
+            "role": "assistant",
+            "content": "<think><assessment>补充C：情绪种类与强度、行为反应，形成完整链条。</assessment><client_state>焦虑和沮丧并存。</client_state><skill>88:分析个体的情绪或行为反应（Consequence）; 45:询问来访者主诉问题的具体情绪表现</skill><strategy>单轮询问当时的情绪（及强度0–10）与具体行为做了什么。</strategy></think>当这个想法出现时，你当时的情绪是什么、强度大概0到10是多少？你随后做了什么？"
+        },
+        {
+            "role": "user",
+            "content": "焦虑大概8，沮丧6。后来刷了会儿手机，又硬撑着继续背，结果更烦。"
+        },
+        {
+            "role": "assistant",
+            "content": "<think><assessment>基于ABC，进行轻度认知重构并转化为最小可执行的学习策略，增强自我效能。</assessment><client_state>愿意尝试，需具体步骤。</client_state><skill>89:引导来访者识别并挑战其不合理或扭曲的信念; 122:在明确了咨询目标领域后，帮助来访者将这些目标具体化为可操作的行为或情绪改变</skill><strategy>单轮请其提出更贴近事实的替代想法，并从两个简易选项中自选一个最小行动（如番茄钟10分钟或切换两道基础题）。</strategy></think>如果把“我不行”换成一句更贴近事实、又不自我打压的话，你愿意试试哪种说法？基于这句话，下次卡住时你更愿意先做哪一个最小步骤：番茄钟专注10分钟后休息2分钟，还是切换到另一科目做两道基础题？"
+        },
+        {
+            "role": "user",
+            "content": "可以试“我现在状态不好，先换个方法”。我先用番茄钟10分钟试试，不行再切两道基础题。"
+        },
+        {
+            "role": "assistant",
+            "content": "<think><assessment>准备收尾，总结关键要点与本周任务，确认会后量表与记录，并安排下次会谈。</assessment><client_state>目标感增强，愿意执行。</client_state><skill>121:根据对来访者问题的诊断和概念化结果，与来访者共同明确咨询的关键目标领域; 122:在明确了咨询目标领域后，帮助来访者将这些目标具体化为可操作的行为或情绪改变</skill><strategy>用总结回放今日要点，列出本周作业与安全清单，并确认下次时间。</strategy></think>我们今天完成了：1) 基本情况与家庭/社交支持；2) 四类触发情境的梳理（同龄比较、亲戚谈论、学习卡住、家族比较）；3) 本周症状用0–10做了基线；4) 确认了低风险并制定了“预警信号—三步自助—可联系的人”的安全清单；5) 做了一个学习场景的ABC，并确定了“番茄钟10分钟+必要时切换两道基础题”的最小行动。本周安排：会后填写SAS/SDS、做简短睡眠与学习记录、睡前做几轮缓慢呼吸、手机设置限时、遇到预警信号按清单执行。我会把今天要点和安全清单发给你，我们下周同一时间见面，一起看记录与量表，再微调计划。你今天已经迈出了很实在的一步，辛苦了。"
+        }
+    ],
+    "critique_report": {
+        "global_summary": "该草稿整体覆盖了评估性会谈的大部分议程并尝试应用CBT技术，但存在多重问题：在若干关键轮次中合并了过多问题、过于直接地引导到特定情境、使来访者呈现出不符合‘适度阻抗与逐步披露’的顺从性，以及量化提问不够自然。这些机制性问题削弱了苏格拉底式探索的深度与治疗联盟的自然形成，降低了信息质量与对话的真实感。",
+        "issues": [
+            {
+                "turn_idx": 34,
+                "error_tag": "合并提问过多",
+                "severity": "高",
+                "quote": "为了后续更好地跟踪变化，请你用0到10来打分（10是最严重/困扰最大）：过去一周里，1) 睡眠困扰，2) 食欲下降，3) 学习专注与效率，4) 整体焦虑，5) 整体低落，各自大概是多少分？",
+                "analysis": {
+                    "root_cause": "咨询师为加速资料收集，将五个不同维度的量化评估集中在一个回合完成，违反了‘每次最多两个问题’与‘复杂话题分多轮完成’的规则。",
+                    "impact": "信息密度过高增加了来访者的认知负荷，容易促成表面化、笼统的回答，降低了后续探索的质量与来访者的参与感，削弱治疗联盟。",
+                    "better_alternative": "分项逐步评估：例如先请来访者描述过去一周的睡眠质量并用语言锚点（轻微/中等/强烈）或0–10打分，再在后续回合分别探索食欲、专注效率、焦虑与低落，每次不超过两个问题。"
+                }
+            },
+            {
+                "turn_idx": 36,
+                "error_tag": "连续多问题追问",
+                "severity": "高",
+                "quote": "这周一般几点上床，大概多久能睡着？夜里会醒几次、总睡多长时间、早醒情况怎么样？",
+                "analysis": {
+                    "root_cause": "在单轮对话中密集堆叠4个结构化问题以求全，忽视了‘复杂话题分多轮、每次不超过两个问题’的节奏要求。",
+                    "impact": "使对话变得像调查问卷，降低来访者的主观体验表达与情绪验证的空间，影响来访者的安全感与合作意愿。",
+                    "better_alternative": "分两到三轮完成：先问入睡时间与入睡时长（两个问题），下一轮再问夜醒与早醒情况，随后再跟进总睡眠时长与白天功能影响，并在每轮加入简短情绪验证。"
+                }
+            },
+            {
+                "turn_idx": 20,
+                "error_tag": "引导过于具体，疑似越界已知信息",
+                "severity": "中",
+                "quote": "当亲戚谈到上大学的话题时，你当时最明显的感受和脑中想法是什么？你通常会怎么应对？",
+                "analysis": {
+                    "root_cause": "在来访者尚未主动提及亲戚谈论升学的具体场景前，咨询师直接引入该特定事件，容易让对话显得像预设剧本而非基于当下叙述的探索。",
+                    "impact": "破坏‘表演无知’与开放探索的体验，可能让来访者感到被引导或被审视，进而减少自发披露与对话自然性。",
+                    "better_alternative": "先用开放式桥接：如‘在家族聚会或与亲戚交流里，有没有让你感到压力的片段？如果有，愿意挑一段你印象最深的来聊聊当时的感受与念头吗？’让来访者自行选择是否谈及亲戚话题。"
+                }
+            },
+            {
+                "turn_idx": 34,
+                "error_tag": "量化方式不自然",
+                "severity": "中",
+                "quote": "请你用0到10来打分（10是最严重/困扰最大）……",
+                "analysis": {
+                    "root_cause": "在多个维度的初评中大量依赖数字量化，缺少语言锚点（轻微/中等/强烈）与主观体验的过渡，增加机械感。",
+                    "impact": "降低了对话的自然性与来访者的情感参与，可能导致来访者为了‘配合评分’而忽略具体叙述。",
+                    "better_alternative": "先用语言强度锚点进行自然化提问（如‘轻微的烦躁、中等的焦虑、还是非常强烈的恐慌’），必要时再转为0–10，以兼顾自然与可追踪性。"
+                }
+            },
+            {
+                "turn_idx": 2,
+                "error_tag": "结构过重导致顺从化",
+                "severity": "中",
+                "quote": "那我们先约定个顺序：基础信息、家庭与同学朋友的支持、过往就医经历、你现在最困扰的事和期待、这周的睡眠与情绪等简要评估、必要的风险与安全、最后选一个具体片段做个小梳理并定下下周计划。",
+                "analysis": {
+                    "root_cause": "在初期详细列出完整议程与步骤，虽符合结构化要求，但缺少对来访者当下偏好与节奏的协商，降低了自发性。",
+                    "impact": "来访者更倾向于‘被带着走’，减少自然的阻抗与话题漂移，影响真实感与联盟的共同性。",
+                    "better_alternative": "提供简要结构后，加入协作性选择与节奏确认，如‘我们可以先从你觉得最想谈的那一块开始，基础信息和睡眠评估会穿插补充，你更愿意先从哪里入手？’"
+                }
+            }
+        ]
+    },
+    "refined_session": [
+        {
+            "role": "assistant",
+            "content": "<think><assessment>初次见面，来访者可能紧张且对流程不确定。先用简短欢迎与共情，说明今天以了解与评估为主，减少不安。</assessment><client_state>尚未表达具体情绪，推测轻度焦虑与期待。</client_state><skill>32:在会谈开始时，通过语言表达对来访者情绪的理解，并展示共情; 36:在会谈开始时，咨询师需要向来访者清晰地说明本次会谈的主题与任务</skill><strategy>先欢迎与感谢，再简要说明今天以了解与评估为主，会做简要记录并征询同意。</strategy></think>你好，欢迎你来这里。迈出这一步不容易，我很感谢你的信任。今天我们主要是先了解和初步评估你的情况，我可能会做些简要记录、必要时会温和地引导，你觉得这样可以吗？"
+        },
+        {
+            "role": "user",
+            "content": "可以的。就是有点紧张。"
+        },
+        {
+            "role": "assistant",
+            "content": "<think><assessment>来访者承认紧张，先继续保持安全感，同时轻度结构化并邀请其偏好参与。</assessment><client_state>轻度紧张但愿意配合。</client_state><skill>35:通过言语和非言语方式表达对来访者的关怀和支持; 39:向来访者说明会谈内容安排与问题询问</skill><strategy>简要说明会谈会涉及基础信息、家庭/社交、就医经历、主诉与期待、近一周状态、安全评估与一个具体片段，邀请他选择从哪块开始更舒服。</strategy></think>谢谢你直说。我会让过程尽量轻松些。我们这次会聊到一些基础信息、家庭和同学朋友的情况、有没有看过医生或做过评估、你最困扰的事以及近一周的睡眠和情绪，还会做一个具体片段的小梳理。你更愿意先从哪里开始？"
+        },
+        {
+            "role": "user",
+            "content": "嗯…先从称呼和基本情况吧，简单一点。"
+        },
+        {
+            "role": "assistant",
+            "content": "<think><assessment>进入称谓与姓名确认。</assessment><client_state>合作、偏谨慎。</client_state><skill>115:收集来访者基本人口学信息</skill><strategy>只问一个问题以确认称呼与名字。</strategy></think>好的。我该怎么称呼你更舒服？也想确认一下你的名字。"
+        },
+        {
+            "role": "user",
+            "content": "叫我A就行。"
+        },
+        {
+            "role": "assistant",
+            "content": "<think><assessment>继续基本信息，控制节奏。</assessment><client_state>表达清晰。</client_state><skill>40:询问来访者的基本人口学信息</skill><strategy>单问年龄与当前年级。</strategy></think>A，你现在多大了？目前是大几？"
+        },
+        {
+            "role": "user",
+            "content": "19岁，大一。"
+        },
+        {
+            "role": "assistant",
+            "content": "<think><assessment>补充学校与专业，保持一问一答。</assessment><client_state>配合、平稳。</client_state><skill>42:了解来访者的职业背景与社会功能; 59:评估教育背景与学习压力</skill><strategy>单问学校与专业。</strategy></think>你就读的是哪所学校、哪个专业呢？"
+        },
+        {
+            "role": "user",
+            "content": "在一所高职院校，工科类专业。"
+        },
+        {
+            "role": "assistant",
+            "content": "<think><assessment>补充居住与经济来源。</assessment><client_state>稳定。</client_state><skill>44:询问来访者的居住状况; 40:询问来访者的基本人口学信息</skill><strategy>单问居住与生活费来源（合并为一个简短问题但不再追问其他）。</strategy></think>你现在主要住在哪里？生活费一般由谁提供？"
+        },
+        {
+            "role": "user",
+            "content": "住在宿舍，四人间。生活费基本是家里提供。"
+        },
+        {
+            "role": "assistant",
+            "content": "<think><assessment>过渡到家庭与社交，先开放式探询，给出表达空间。</assessment><client_state>略谨慎，愿意披露。</client_state><skill>56:询问来访者家庭关系; 33:耐心倾听来访者叙述</skill><strategy>单问家庭成员与相处感觉。</strategy></think>能跟我说说你的家庭成员，以及你和家人的相处整体感觉是怎样的吗？"
+        },
+        {
+            "role": "user",
+            "content": "我是独生子，家里氛围总体还不错，不过父母对我要求比较严格。"
+        },
+        {
+            "role": "assistant",
+            "content": "<think><assessment>验证感受并引入社交现状及变化，保持开放式。</assessment><client_state>被理解的感觉增加，情绪平稳。</client_state><skill>32:表达理解与共情; 60:识别其他角色中的表现与互动</skill><strategy>先共情一句，再单问最近与同学朋友的联系与变化。</strategy></think>听起来总体关系是稳定的，同时也有被严格期待的部分。最近你和同学、朋友的联系如何？有没有一些变化是你在意的？"
+        },
+        {
+            "role": "user",
+            "content": "这段时间联系少了，也不太想社交。说起来，几个从小一起玩的朋友都去了本科，最好的那个去了南大…我就有点不太想联系他们。"
+        },
+        {
+            "role": "assistant",
+            "content": "<think><assessment>出现同龄比较线索。用苏格拉底式探索自动化思维，保持一问一答。</assessment><client_state>有自卑与回避倾向，仍愿意谈。</client_state><skill>59:评估教育背景与学习压力; 87:探讨认知或信念(B)</skill><strategy>单问当时脑中的第一念头。</strategy></think>当你想到他们的升学情况时，脑子里最先冒出来的念头是什么？"
+        },
+        {
+            "role": "user",
+            "content": "会跳出来‘我不行’吧，还有‘我不如他们’。"
+        },
+        {
+            "role": "assistant",
+            "content": "<think><assessment>继续探索条件性假设，保持一问。</assessment><client_state>愿意反思。</client_state><skill>87:探讨认知或信念(B)</skill><strategy>单问是否存在‘如果达不到相近层级就算失败’的内在要求。</strategy></think>你会不会有一种内在的要求，比如“如果没有达到和他们相近或更高的层级，就算失败”？"
+        },
+        {
+            "role": "user",
+            "content": "可能有吧，我一直想专升本，用更努力来证明自己。"
+        },
+        {
+            "role": "assistant",
+            "content": "<think><assessment>轻度验证情绪并探询常用应对策略。</assessment><client_state>紧张略升、动机在。</client_state><skill>32:表达理解与共情; 47:询问主诉问题的行为表现</skill><strategy>单问面对这种念头时通常会怎么做。</strategy></think>在这种念头出现的时候，你通常会怎么应对呢？"
+        },
+        {
+            "role": "user",
+            "content": "要么硬扛着学更多，要么就不想联系他们，免得被比来比去。"
+        },
+        {
+            "role": "assistant",
+            "content": "<think><assessment>过渡到就医与评估经历，保持简洁且一问。</assessment><client_state>配合良好。</client_state><skill>65:询问精神科就诊经历; 66:询问既往心理问题和心理咨询经历</skill><strategy>单问是否就诊或做过量表、目前是否服药。</strategy></think>你之前有没有去医院或心理咨询做过评估？比如量表或医生的建议，目前有在服药或用其他方式帮助自己吗？"
+        },
+        {
+            "role": "user",
+            "content": "去医院看过，说我有抑郁情绪，焦虑也挺高。做过SAS和SDS，分数大概是焦虑60多、抑郁50多。药不太规律，主要是先想调整作息。"
+        },
+        {
+            "role": "assistant",
+            "content": "<think><assessment>进入主诉与期待，聚焦当下困扰并邀请短期优先项。</assessment><client_state>困扰明确，动机存在。</client_state><skill>116:询问主诉问题的临床表现与严重程度; 121:确认咨询目标的关键领域</skill><strategy>单问此刻最困扰与短期最想改善的一两件事。</strategy></think>现在对你影响最大、最困扰的是什么？你希望先改善的一两件事是什么？"
+        },
+        {
+            "role": "user",
+            "content": "睡不好，学习效率很低，也容易焦虑和低落。我想先把睡眠和学习状态稳住。"
+        },
+        {
+            "role": "assistant",
+            "content": "<think><assessment>说明保密与合作框架，缓解顾虑，保持一问。</assessment><client_state>对流程可能有轻度顾虑。</client_state><skill>37:介绍整个咨询阶段的安排与后续步骤; 38:解释会谈时间安排与目标</skill><strategy>简要说明保密、频次时长、可能的家庭作业，单问是否有担心或偏好。</strategy></think>我们的谈话会被妥善保密，除非在你或他人安全存在明显风险等法律例外时才会披露。一般每周一次、约50分钟，我们会一起设定目标，可能会有一些简单的带回去的小练习。关于这些安排，你有什么担心或偏好吗？"
+        },
+        {
+            "role": "user",
+            "content": "主要是担心记录会被别人看到，其他还好。"
+        },
+        {
+            "role": "assistant",
+            "content": "<think><assessment>需要具体回应记录安全，增强掌控感。</assessment><client_state>寻求安全感。</client_state><skill>34:尊重来访者感受并处理顾虑; 35:提供温暖的人性关怀</skill><strategy>先验证担心，再说明记录保管与权限，并承诺如有需要可与来访者确认要点。</strategy></think>谢谢你直接说出来。记录只用于你的咨询与必要的专业用途，受严格的权限保护，不会被无关人员查看。如果你愿意，我们在会后可以一起过一遍今天的要点，确保你放心。这样对你来说会更安心一些吗？"
+        },
+        {
+            "role": "user",
+            "content": "嗯，这样就放心多了。"
+        },
+        {
+            "role": "assistant",
+            "content": "<think><assessment>开始近一周的基线评估，用语言锚点与单项推进，避免一次塞太多。</assessment><client_state>愿意配合结构化评估。</client_state><skill>48:询问主诉问题的严重程度; 49:询问主诉问题的频率与持续时间</skill><strategy>先单问睡眠困扰强度，用语言锚点或0–10，控制一问。</strategy></think>过去一周里，关于睡眠的困扰，你会用轻微、中等，还是很强烈来形容？如果用0到10来标记，大概是多少？"
+        },
+        {
+            "role": "user",
+            "content": "算是很强烈吧，可能8分左右。"
+        },
+        {
+            "role": "assistant",
+            "content": "<think><assessment>继续单项探查睡眠结构，分步进行。</assessment><client_state>疲惫但可承载。</client_state><skill>48:询问主诉问题的严重程度</skill><strategy>单问入睡时长或早醒中的一个维度。</strategy></think>通常你上床后，大概多久能睡着？"
+        },
+        {
+            "role": "user",
+            "content": "有时要一两个小时。"
+        },
+        {
+            "role": "assistant",
+            "content": "<think><assessment>再探一个维度，控制节奏。</assessment><client_state>配合良好。</client_state><skill>49:询问主诉问题的频率与持续时间</skill><strategy>单问是否容易早醒。</strategy></think>这周有没有经常早醒、醒了之后再睡不太着的情况？"
+        },
+        {
+            "role": "user",
+            "content": "有，五六点就醒了，再睡不太着。"
+        },
+        {
+            "role": "assistant",
+            "content": "<think><assessment>过渡到学习专注与效率的基线，单项推进。</assessment><client_state>稳定。</client_state><skill>48:询问主诉问题的严重程度</skill><strategy>单问学习专注与效率主观强度，用语言锚点或0–10。</strategy></think>学习的专注和效率这块，你会说是轻微、中等，还是很明显的困难？如果用0到10，差不多会是多少？"
+        },
+        {
+            "role": "user",
+            "content": "挺明显的，可能7到8分吧。"
+        },
+        {
+            "role": "assistant",
+            "content": "<think><assessment>安排量表基线，说明用途，保持一问。</assessment><client_state>配合度好。</client_state><skill>75:使用焦虑量表评估来访者的焦虑水平; 76:使用抑郁量表评估来访者的抑郁症状</skill><strategy>单问是否愿意会后完成SAS与SDS以建立现阶段基线。</strategy></think>如果你同意，会后再完成一次SAS和SDS，作为目前的量化基线。下次我们一起看结果和你的主观变化，你觉得可以吗？"
+        },
+        {
+            "role": "user",
+            "content": "可以。"
+        },
+        {
+            "role": "assistant",
+            "content": "<think><assessment>进行风险与安全评估，语气温和、直接且控制为一问。</assessment><client_state>暂未见高危，但需确认。</client_state><skill>32:表达理解与共情; 35:提供温暖的人性关怀</skill><strategy>单问是否出现过自伤/自杀相关想法、计划或行为。</strategy></think>固定问一下安全相关的问题：最近有没有出现过不想活或伤害自己的想法、计划或行动？"
+        },
+        {
+            "role": "user",
+            "content": "没有计划和行动，偶尔觉得很累，但不会做傻事。"
+        },
+        {
+            "role": "assistant",
+            "content": "<think><assessment>在低风险前提下制定简要安全计划，先识别预警信号，保持一问。</assessment><client_state>愿意合作。</client_state><skill>34:尊重来访者感受并处理顾虑; 35:提供温暖的人性关怀</skill><strategy>单问在情绪下滑前最早出现的两三个预警信号。</strategy></think>当情绪明显下滑前，通常最早会出现哪些迹象？你能说出两三个吗？"
+        },
+        {
+            "role": "user",
+            "content": "会翻来覆去睡不着、一直刷手机、也不太想说话。"
+        },
+        {
+            "role": "assistant",
+            "content": "<think><assessment>继续安全计划，邀请两到三步自助，控制一问。</assessment><client_state>愿意动用自助策略。</client_state><skill>35:提供温暖的人性关怀</skill><strategy>单问在这些信号出现时你最愿意先做的两到三步简单自助。</strategy></think>在这些信号出现时，你最愿意先做的两到三步是什么？越具体越好。"
+        },
+        {
+            "role": "user",
+            "content": "先做几轮慢呼吸，把手机设置限时，然后给室友发个消息，说我状态不太好。"
+        },
+        {
+            "role": "assistant",
+            "content": "<think><assessment>完善支持网络，保持一问。</assessment><client_state>支持资源可用。</client_state><skill>35:提供温暖的人性关怀</skill><strategy>单问当需要帮助时愿意联系的两三位人或校内资源。</strategy></think>当你需要帮助时，你愿意联系的两三位人是谁？校内的心理中心或辅导员对你来说方便吗？"
+        },
+        {
+            "role": "user",
+            "content": "我会联系我妈、一个高中同学，还有辅导员。心理中心我知道在哪，需要的话可以去。"
+        },
+        {
+            "role": "assistant",
+            "content": "<think><assessment>进入个案图式草绘，选一个学习片段做ABC，先从情境A开始，一问。</assessment><client_state>可承载，愿意练习。</client_state><skill>86:分析情境(A); 33:耐心倾听来访者叙述</skill><strategy>单问最近学习中最典型卡住的具体时刻发生了什么（A）。</strategy></think>我们挑一个最近学习时的片段来练习一下：当时具体发生了什么（情境A）？"
+        },
+        {
+            "role": "user",
+            "content": "在图书馆背单词，背了半小时还是记不住，旁边的人做题很快。"
+        },
+        {
+            "role": "assistant",
+            "content": "<think><assessment>继续ABC的B，探索第一自动化思维，一问。</assessment><client_state>焦虑与自责并存。</client_state><skill>87:探讨认知或信念(B)</skill><strategy>单问当时脑中第一反应的念头（B）。</strategy></think>那一刻你脑子里第一反应的念头是什么（B）？"
+        },
+        {
+            "role": "user",
+            "content": "‘我不行’。还有点‘又要被落下了’的感觉。"
+        },
+        {
+            "role": "assistant",
+            "content": "<think><assessment>补充C，情绪与行为后果，用语言锚点并控制一问。</assessment><client_state>情绪强度较高。</client_state><skill>88:评估情绪或行为后果(C); 45:询问主诉问题的具体情绪表现</skill><strategy>单问当时的情绪种类与强度，以及随后做了什么（简短合并在一句）。</strategy></think>当这个想法冒出来时，你当时的情绪是什么、强度大概是轻微、中等还是很强烈？随后你做了什么？"
+        },
+        {
+            "role": "user",
+            "content": "焦虑挺强的，沮丧也有。后来刷了会儿手机，又硬撑着继续背，结果更烦。"
+        },
+        {
+            "role": "assistant",
+            "content": "<think><assessment>基于ABC做轻度认知重构与最小行动设计，保持一问。</assessment><client_state>愿意尝试，需具体化。</client_state><skill>89:认知重构策略; 122:设定咨询目标的具体行为或情绪改变</skill><strategy>单问一个更贴近事实的替代想法，并请其从两个最小步骤中选择一个先试。</strategy></think>如果把“我不行”换成一句更贴近事实、又不自我打压的话，你愿意试试哪种说法？基于这句话，下次卡住时你更愿意先做哪一个最小步骤：用番茄钟专注10分钟后休息2分钟，还是切到另一科目做两道基础题？"
+        },
+        {
+            "role": "user",
+            "content": "我可以试“我现在卡住了，先换个方法再看”。先用番茄钟10分钟试试，不行再切两道基础题。"
+        },
+        {
+            "role": "assistant",
+            "content": "<think><assessment>补充另一触发情境的探索，保持表演无知的姿态，用开放式桥接亲友话题，控制一问。</assessment><client_state>可承载，轻度羞耻感可能出现。</client_state><skill>56:询问来访者家庭关系; 51:询问心理问题的诱发事件</skill><strategy>单问在与家人或亲友的交往里，是否也有让他压力的片段，邀请挑一个。</strategy></think>在和家人或亲友的交往里，是否也有让你感到压力的片段？如果有，愿意挑一个你印象最深的来说说吗？"
+        },
+        {
+            "role": "user",
+            "content": "亲戚聊到考大学的话题时，我会很尴尬，脑子里就冒出“我让他们失望了”。我一般就少联系。"
+        },
+        {
+            "role": "assistant",
+            "content": "<think><assessment>验证情绪并连接到概念化，控制一问。</assessment><client_state>羞耻与压力上升。</client_state><skill>32:表达理解与共情; 55:探查症状影响的社会功能</skill><strategy>单问这种念头与回避对你近期社交或心情的影响。</strategy></think>听起来那种尴尬和“我让他们失望了”的念头很重。这样的情况下，你的社交或心情最近受到哪些影响？"
+        },
+        {
+            "role": "user",
+            "content": "就更不想联系别人，心情也更低落一些。"
+        },
+        {
+            "role": "assistant",
+            "content": "<think><assessment>补充家族比较的线索，保持开放式与一问。</assessment><client_state>压力提升但仍愿意谈。</client_state><skill>51:询问心理问题的诱发事件; 60:识别其他角色中的表现与互动</skill><strategy>单问是否会和家族里某位成就突出的亲戚比较，并描述当时的念头。</strategy></think>你是否也会和家族里某位成就突出的亲戚比较？如果会，那一刻通常会冒出什么念头？"
+        },
+        {
+            "role": "user",
+            "content": "会想到表哥，研究生毕业又考了公务员。我脑子里就会觉得“和他相比我没什么成就”，然后更着急。"
+        },
+        {
+            "role": "assistant",
+            "content": "<think><assessment>准备收尾，总结要点与本周计划，确认量表与安全清单，保持肯定语气。</assessment><client_state>目标感增强，愿意执行。</client_state><skill>121:确认咨询目标的关键领域; 122:设定咨询目标的具体行为或情绪改变</skill><strategy>总结今日要点，明确本周最小行动与安全计划，确认量表与下一次安排，最后以鼓励收尾。</strategy></think>我们今天一起完成了：1) 你的基本情况与家庭/社交的现状；2) 几个触发情境的初步概念化（同龄比较下的“我不行”、亲戚谈论时的“我让他们失望了”、家族比较中的“我没什么成就”）；3) 近一周睡眠与学习的基线；4) 安全计划（预警信号、三步自助与可联系的人）；5) 一个学习场景的ABC练习，并确定了“番茄钟10分钟，必要时切两道基础题”的最小行动。会后你完成SAS和SDS，我们下次一起看结果和你的记录。如果这周出现预警信号，就按清单执行：慢呼吸、手机限时、给室友或亲友发消息。你今天迈出了很实在的一步，辛苦了，我很看重你为自己所做的努力。"
+        }
+    ]
+}

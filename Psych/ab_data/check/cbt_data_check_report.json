@@ -1,0 +1,1968 @@
+{
+  "summary": {
+    "generated_at": "2026-02-24 19:05:28",
+    "data_dir": "Psych/ab_data/cbt",
+    "file_count": 110,
+    "python": "3.10.18 (main, Jun  5 2025, 13:14:17) [GCC 11.2.0]",
+    "rules": {
+      "role_exact": [
+        "assistant",
+        "user"
+      ],
+      "boundary": "first/last must be assistant",
+      "alternation": "strict alternation (no consecutive same role)",
+      "think_required": {
+        "tag": "think",
+        "subtags": [
+          "assessment",
+          "client_state",
+          "skill",
+          "strategy"
+        ]
+      }
+    },
+    "aggregates": {
+      "session_dialogue": {},
+      "refined_session": {
+        "files_with_issues": 18,
+        "alternation_break": 18,
+        "assistant_think": 1
+      }
+    },
+    "sanity_after_rewrite": {
+      "turn_keys": {
+        "has_role": 10569,
+        "has_content": 10569,
+        "has_text": 0
+      },
+      "role_values": {
+        "assistant": 5391,
+        "user": 5178
+      }
+    }
+  },
+  "details": [
+    {
+      "file": "Psych/ab_data/cbt/user_10_session_1.json",
+      "session_dialogue": {
+        "field": "session_dialogue",
+        "ok": true,
+        "num_turns": 69,
+        "issues": []
+      },
+      "refined_session": {
+        "field": "refined_session",
+        "ok": false,
+        "num_turns": 70,
+        "issues": [
+          {
+            "code": "alternation_break",
+            "break_count": 1,
+            "breaks": [
+              {
+                "idx_prev": 48,
+                "idx": 49,
+                "role": "assistant",
+                "role_prev_raw": "assistant",
+                "role_raw": "assistant"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "file": "Psych/ab_data/cbt/user_10_session_2.json",
+      "session_dialogue": {
+        "field": "session_dialogue",
+        "ok": true,
+        "num_turns": 51,
+        "issues": []
+      },
+      "refined_session": {
+        "field": "refined_session",
+        "ok": false,
+        "num_turns": 50,
+        "issues": [
+          {
+            "code": "alternation_break",
+            "break_count": 1,
+            "breaks": [
+              {
+                "idx_prev": 45,
+                "idx": 46,
+                "role": "user",
+                "role_prev_raw": "user",
+                "role_raw": "user"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "file": "Psych/ab_data/cbt/user_10_session_3.json",
+      "session_dialogue": {
+        "field": "session_dialogue",
+        "ok": true,
+        "num_turns": 43,
+        "issues": []
+      },
+      "refined_session": {
+        "field": "refined_session",
+        "ok": true,
+        "num_turns": 45,
+        "issues": []
+      }
+    },
+    {
+      "file": "Psych/ab_data/cbt/user_10_session_4.json",
+      "session_dialogue": {
+        "field": "session_dialogue",
+        "ok": true,
+        "num_turns": 47,
+        "issues": []
+      },
+      "refined_session": {
+        "field": "refined_session",
+        "ok": true,
+        "num_turns": 57,
+        "issues": []
+      }
+    },
+    {
+      "file": "Psych/ab_data/cbt/user_10_session_5.json",
+      "session_dialogue": {
+        "field": "session_dialogue",
+        "ok": true,
+        "num_turns": 45,
+        "issues": []
+      },
+      "refined_session": {
+        "field": "refined_session",
+        "ok": false,
+        "num_turns": 48,
+        "issues": [
+          {
+            "code": "alternation_break",
+            "break_count": 1,
+            "breaks": [
+              {
+                "idx_prev": 19,
+                "idx": 20,
+                "role": "user",
+                "role_prev_raw": "user",
+                "role_raw": "user"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "file": "Psych/ab_data/cbt/user_10_session_6.json",
+      "session_dialogue": {
+        "field": "session_dialogue",
+        "ok": true,
+        "num_turns": 55,
+        "issues": []
+      },
+      "refined_session": {
+        "field": "refined_session",
+        "ok": false,
+        "num_turns": 60,
+        "issues": [
+          {
+            "code": "alternation_break",
+            "break_count": 1,
+            "breaks": [
+              {
+                "idx_prev": 53,
+                "idx": 54,
+                "role": "user",
+                "role_prev_raw": "user",
+                "role_raw": "user"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "file": "Psych/ab_data/cbt/user_10_session_7.json",
+      "session_dialogue": {
+        "field": "session_dialogue",
+        "ok": true,
+        "num_turns": 59,
+        "issues": []
+      },
+      "refined_session": {
+        "field": "refined_session",
+        "ok": true,
+        "num_turns": 49,
+        "issues": []
+      }
+    },
+    {
+      "file": "Psych/ab_data/cbt/user_10_session_8.json",
+      "session_dialogue": {
+        "field": "session_dialogue",
+        "ok": true,
+        "num_turns": 31,
+        "issues": []
+      },
+      "refined_session": {
+        "field": "refined_session",
+        "ok": true,
+        "num_turns": 33,
+        "issues": []
+      }
+    },
+    {
+      "file": "Psych/ab_data/cbt/user_10_session_9.json",
+      "session_dialogue": {
+        "field": "session_dialogue",
+        "ok": true,
+        "num_turns": 27,
+        "issues": []
+      },
+      "refined_session": {
+        "field": "refined_session",
+        "ok": true,
+        "num_turns": 45,
+        "issues": []
+      }
+    },
+    {
+      "file": "Psych/ab_data/cbt/user_11_session_1.json",
+      "session_dialogue": {
+        "field": "session_dialogue",
+        "ok": true,
+        "num_turns": 69,
+        "issues": []
+      },
+      "refined_session": {
+        "field": "refined_session",
+        "ok": true,
+        "num_turns": 75,
+        "issues": []
+      }
+    },
+    {
+      "file": "Psych/ab_data/cbt/user_11_session_2.json",
+      "session_dialogue": {
+        "field": "session_dialogue",
+        "ok": true,
+        "num_turns": 53,
+        "issues": []
+      },
+      "refined_session": {
+        "field": "refined_session",
+        "ok": true,
+        "num_turns": 65,
+        "issues": []
+      }
+    },
+    {
+      "file": "Psych/ab_data/cbt/user_11_session_3.json",
+      "session_dialogue": {
+        "field": "session_dialogue",
+        "ok": true,
+        "num_turns": 49,
+        "issues": []
+      },
+      "refined_session": {
+        "field": "refined_session",
+        "ok": true,
+        "num_turns": 49,
+        "issues": []
+      }
+    },
+    {
+      "file": "Psych/ab_data/cbt/user_11_session_4.json",
+      "session_dialogue": {
+        "field": "session_dialogue",
+        "ok": true,
+        "num_turns": 51,
+        "issues": []
+      },
+      "refined_session": {
+        "field": "refined_session",
+        "ok": false,
+        "num_turns": 56,
+        "issues": [
+          {
+            "code": "alternation_break",
+            "break_count": 1,
+            "breaks": [
+              {
+                "idx_prev": 41,
+                "idx": 42,
+                "role": "user",
+                "role_prev_raw": "user",
+                "role_raw": "user"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "file": "Psych/ab_data/cbt/user_11_session_5.json",
+      "session_dialogue": {
+        "field": "session_dialogue",
+        "ok": true,
+        "num_turns": 33,
+        "issues": []
+      },
+      "refined_session": {
+        "field": "refined_session",
+        "ok": true,
+        "num_turns": 47,
+        "issues": []
+      }
+    },
+    {
+      "file": "Psych/ab_data/cbt/user_12_session_1.json",
+      "session_dialogue": {
+        "field": "session_dialogue",
+        "ok": true,
+        "num_turns": 49,
+        "issues": []
+      },
+      "refined_session": {
+        "field": "refined_session",
+        "ok": true,
+        "num_turns": 43,
+        "issues": []
+      }
+    },
+    {
+      "file": "Psych/ab_data/cbt/user_12_session_2.json",
+      "session_dialogue": {
+        "field": "session_dialogue",
+        "ok": true,
+        "num_turns": 63,
+        "issues": []
+      },
+      "refined_session": {
+        "field": "refined_session",
+        "ok": true,
+        "num_turns": 67,
+        "issues": []
+      }
+    },
+    {
+      "file": "Psych/ab_data/cbt/user_12_session_3.json",
+      "session_dialogue": {
+        "field": "session_dialogue",
+        "ok": true,
+        "num_turns": 51,
+        "issues": []
+      },
+      "refined_session": {
+        "field": "refined_session",
+        "ok": true,
+        "num_turns": 53,
+        "issues": []
+      }
+    },
+    {
+      "file": "Psych/ab_data/cbt/user_12_session_4.json",
+      "session_dialogue": {
+        "field": "session_dialogue",
+        "ok": true,
+        "num_turns": 45,
+        "issues": []
+      },
+      "refined_session": {
+        "field": "refined_session",
+        "ok": true,
+        "num_turns": 63,
+        "issues": []
+      }
+    },
+    {
+      "file": "Psych/ab_data/cbt/user_12_session_5.json",
+      "session_dialogue": {
+        "field": "session_dialogue",
+        "ok": true,
+        "num_turns": 41,
+        "issues": []
+      },
+      "refined_session": {
+        "field": "refined_session",
+        "ok": false,
+        "num_turns": 40,
+        "issues": [
+          {
+            "code": "alternation_break",
+            "break_count": 1,
+            "breaks": [
+              {
+                "idx_prev": 35,
+                "idx": 36,
+                "role": "user",
+                "role_prev_raw": "user",
+                "role_raw": "user"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "file": "Psych/ab_data/cbt/user_12_session_6.json",
+      "session_dialogue": {
+        "field": "session_dialogue",
+        "ok": true,
+        "num_turns": 33,
+        "issues": []
+      },
+      "refined_session": {
+        "field": "refined_session",
+        "ok": false,
+        "num_turns": 46,
+        "issues": [
+          {
+            "code": "alternation_break",
+            "break_count": 1,
+            "breaks": [
+              {
+                "idx_prev": 29,
+                "idx": 30,
+                "role": "user",
+                "role_prev_raw": "user",
+                "role_raw": "user"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "file": "Psych/ab_data/cbt/user_12_session_7.json",
+      "session_dialogue": {
+        "field": "session_dialogue",
+        "ok": true,
+        "num_turns": 41,
+        "issues": []
+      },
+      "refined_session": {
+        "field": "refined_session",
+        "ok": false,
+        "num_turns": 44,
+        "issues": [
+          {
+            "code": "alternation_break",
+            "break_count": 1,
+            "breaks": [
+              {
+                "idx_prev": 31,
+                "idx": 32,
+                "role": "user",
+                "role_prev_raw": "user",
+                "role_raw": "user"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "file": "Psych/ab_data/cbt/user_12_session_8.json",
+      "session_dialogue": {
+        "field": "session_dialogue",
+        "ok": true,
+        "num_turns": 41,
+        "issues": []
+      },
+      "refined_session": {
+        "field": "refined_session",
+        "ok": false,
+        "num_turns": 62,
+        "issues": [
+          {
+            "code": "alternation_break",
+            "break_count": 1,
+            "breaks": [
+              {
+                "idx_prev": 40,
+                "idx": 41,
+                "role": "assistant",
+                "role_prev_raw": "assistant",
+                "role_raw": "assistant"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "file": "Psych/ab_data/cbt/user_12_session_9.json",
+      "session_dialogue": {
+        "field": "session_dialogue",
+        "ok": true,
+        "num_turns": 43,
+        "issues": []
+      },
+      "refined_session": {
+        "field": "refined_session",
+        "ok": true,
+        "num_turns": 49,
+        "issues": []
+      }
+    },
+    {
+      "file": "Psych/ab_data/cbt/user_13_session_1.json",
+      "session_dialogue": {
+        "field": "session_dialogue",
+        "ok": true,
+        "num_turns": 53,
+        "issues": []
+      },
+      "refined_session": {
+        "field": "refined_session",
+        "ok": true,
+        "num_turns": 63,
+        "issues": []
+      }
+    },
+    {
+      "file": "Psych/ab_data/cbt/user_13_session_10.json",
+      "session_dialogue": {
+        "field": "session_dialogue",
+        "ok": true,
+        "num_turns": 27,
+        "issues": []
+      },
+      "refined_session": {
+        "field": "refined_session",
+        "ok": true,
+        "num_turns": 47,
+        "issues": []
+      }
+    },
+    {
+      "file": "Psych/ab_data/cbt/user_13_session_2.json",
+      "session_dialogue": {
+        "field": "session_dialogue",
+        "ok": true,
+        "num_turns": 55,
+        "issues": []
+      },
+      "refined_session": {
+        "field": "refined_session",
+        "ok": false,
+        "num_turns": 60,
+        "issues": [
+          {
+            "code": "alternation_break",
+            "break_count": 1,
+            "breaks": [
+              {
+                "idx_prev": 52,
+                "idx": 53,
+                "role": "assistant",
+                "role_prev_raw": "assistant",
+                "role_raw": "assistant"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "file": "Psych/ab_data/cbt/user_13_session_3.json",
+      "session_dialogue": {
+        "field": "session_dialogue",
+        "ok": true,
+        "num_turns": 61,
+        "issues": []
+      },
+      "refined_session": {
+        "field": "refined_session",
+        "ok": true,
+        "num_turns": 67,
+        "issues": []
+      }
+    },
+    {
+      "file": "Psych/ab_data/cbt/user_13_session_4.json",
+      "session_dialogue": {
+        "field": "session_dialogue",
+        "ok": true,
+        "num_turns": 41,
+        "issues": []
+      },
+      "refined_session": {
+        "field": "refined_session",
+        "ok": true,
+        "num_turns": 51,
+        "issues": []
+      }
+    },
+    {
+      "file": "Psych/ab_data/cbt/user_13_session_5.json",
+      "session_dialogue": {
+        "field": "session_dialogue",
+        "ok": true,
+        "num_turns": 37,
+        "issues": []
+      },
+      "refined_session": {
+        "field": "refined_session",
+        "ok": true,
+        "num_turns": 49,
+        "issues": []
+      }
+    },
+    {
+      "file": "Psych/ab_data/cbt/user_13_session_6.json",
+      "session_dialogue": {
+        "field": "session_dialogue",
+        "ok": true,
+        "num_turns": 61,
+        "issues": []
+      },
+      "refined_session": {
+        "field": "refined_session",
+        "ok": true,
+        "num_turns": 59,
+        "issues": []
+      }
+    },
+    {
+      "file": "Psych/ab_data/cbt/user_13_session_7.json",
+      "session_dialogue": {
+        "field": "session_dialogue",
+        "ok": true,
+        "num_turns": 55,
+        "issues": []
+      },
+      "refined_session": {
+        "field": "refined_session",
+        "ok": true,
+        "num_turns": 61,
+        "issues": []
+      }
+    },
+    {
+      "file": "Psych/ab_data/cbt/user_13_session_8.json",
+      "session_dialogue": {
+        "field": "session_dialogue",
+        "ok": true,
+        "num_turns": 47,
+        "issues": []
+      },
+      "refined_session": {
+        "field": "refined_session",
+        "ok": true,
+        "num_turns": 49,
+        "issues": []
+      }
+    },
+    {
+      "file": "Psych/ab_data/cbt/user_13_session_9.json",
+      "session_dialogue": {
+        "field": "session_dialogue",
+        "ok": true,
+        "num_turns": 41,
+        "issues": []
+      },
+      "refined_session": {
+        "field": "refined_session",
+        "ok": true,
+        "num_turns": 57,
+        "issues": []
+      }
+    },
+    {
+      "file": "Psych/ab_data/cbt/user_14_session_1.json",
+      "session_dialogue": {
+        "field": "session_dialogue",
+        "ok": true,
+        "num_turns": 45,
+        "issues": []
+      },
+      "refined_session": {
+        "field": "refined_session",
+        "ok": true,
+        "num_turns": 51,
+        "issues": []
+      }
+    },
+    {
+      "file": "Psych/ab_data/cbt/user_14_session_2.json",
+      "session_dialogue": {
+        "field": "session_dialogue",
+        "ok": true,
+        "num_turns": 47,
+        "issues": []
+      },
+      "refined_session": {
+        "field": "refined_session",
+        "ok": true,
+        "num_turns": 61,
+        "issues": []
+      }
+    },
+    {
+      "file": "Psych/ab_data/cbt/user_14_session_3.json",
+      "session_dialogue": {
+        "field": "session_dialogue",
+        "ok": true,
+        "num_turns": 47,
+        "issues": []
+      },
+      "refined_session": {
+        "field": "refined_session",
+        "ok": true,
+        "num_turns": 49,
+        "issues": []
+      }
+    },
+    {
+      "file": "Psych/ab_data/cbt/user_14_session_4.json",
+      "session_dialogue": {
+        "field": "session_dialogue",
+        "ok": true,
+        "num_turns": 41,
+        "issues": []
+      },
+      "refined_session": {
+        "field": "refined_session",
+        "ok": true,
+        "num_turns": 37,
+        "issues": []
+      }
+    },
+    {
+      "file": "Psych/ab_data/cbt/user_14_session_5.json",
+      "session_dialogue": {
+        "field": "session_dialogue",
+        "ok": true,
+        "num_turns": 37,
+        "issues": []
+      },
+      "refined_session": {
+        "field": "refined_session",
+        "ok": true,
+        "num_turns": 41,
+        "issues": []
+      }
+    },
+    {
+      "file": "Psych/ab_data/cbt/user_14_session_6.json",
+      "session_dialogue": {
+        "field": "session_dialogue",
+        "ok": true,
+        "num_turns": 35,
+        "issues": []
+      },
+      "refined_session": {
+        "field": "refined_session",
+        "ok": true,
+        "num_turns": 37,
+        "issues": []
+      }
+    },
+    {
+      "file": "Psych/ab_data/cbt/user_14_session_7.json",
+      "session_dialogue": {
+        "field": "session_dialogue",
+        "ok": true,
+        "num_turns": 35,
+        "issues": []
+      },
+      "refined_session": {
+        "field": "refined_session",
+        "ok": false,
+        "num_turns": 52,
+        "issues": [
+          {
+            "code": "alternation_break",
+            "break_count": 1,
+            "breaks": [
+              {
+                "idx_prev": 41,
+                "idx": 42,
+                "role": "user",
+                "role_prev_raw": "user",
+                "role_raw": "user"
+              }
+            ]
+          },
+          {
+            "code": "assistant_think",
+            "issue_count": 1,
+            "examples": [
+              {
+                "idx": 51,
+                "errors": [
+                  "think_missing",
+                  "think_inner_missing"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "file": "Psych/ab_data/cbt/user_14_session_8.json",
+      "session_dialogue": {
+        "field": "session_dialogue",
+        "ok": true,
+        "num_turns": 29,
+        "issues": []
+      },
+      "refined_session": {
+        "field": "refined_session",
+        "ok": true,
+        "num_turns": 33,
+        "issues": []
+      }
+    },
+    {
+      "file": "Psych/ab_data/cbt/user_15_session_1.json",
+      "session_dialogue": {
+        "field": "session_dialogue",
+        "ok": true,
+        "num_turns": 47,
+        "issues": []
+      },
+      "refined_session": {
+        "field": "refined_session",
+        "ok": true,
+        "num_turns": 53,
+        "issues": []
+      }
+    },
+    {
+      "file": "Psych/ab_data/cbt/user_15_session_10.json",
+      "session_dialogue": {
+        "field": "session_dialogue",
+        "ok": true,
+        "num_turns": 31,
+        "issues": []
+      },
+      "refined_session": {
+        "field": "refined_session",
+        "ok": true,
+        "num_turns": 35,
+        "issues": []
+      }
+    },
+    {
+      "file": "Psych/ab_data/cbt/user_15_session_2.json",
+      "session_dialogue": {
+        "field": "session_dialogue",
+        "ok": true,
+        "num_turns": 37,
+        "issues": []
+      },
+      "refined_session": {
+        "field": "refined_session",
+        "ok": true,
+        "num_turns": 59,
+        "issues": []
+      }
+    },
+    {
+      "file": "Psych/ab_data/cbt/user_15_session_3.json",
+      "session_dialogue": {
+        "field": "session_dialogue",
+        "ok": true,
+        "num_turns": 39,
+        "issues": []
+      },
+      "refined_session": {
+        "field": "refined_session",
+        "ok": true,
+        "num_turns": 45,
+        "issues": []
+      }
+    },
+    {
+      "file": "Psych/ab_data/cbt/user_15_session_4.json",
+      "session_dialogue": {
+        "field": "session_dialogue",
+        "ok": true,
+        "num_turns": 43,
+        "issues": []
+      },
+      "refined_session": {
+        "field": "refined_session",
+        "ok": true,
+        "num_turns": 59,
+        "issues": []
+      }
+    },
+    {
+      "file": "Psych/ab_data/cbt/user_15_session_5.json",
+      "session_dialogue": {
+        "field": "session_dialogue",
+        "ok": true,
+        "num_turns": 49,
+        "issues": []
+      },
+      "refined_session": {
+        "field": "refined_session",
+        "ok": true,
+        "num_turns": 43,
+        "issues": []
+      }
+    },
+    {
+      "file": "Psych/ab_data/cbt/user_15_session_6.json",
+      "session_dialogue": {
+        "field": "session_dialogue",
+        "ok": true,
+        "num_turns": 43,
+        "issues": []
+      },
+      "refined_session": {
+        "field": "refined_session",
+        "ok": true,
+        "num_turns": 37,
+        "issues": []
+      }
+    },
+    {
+      "file": "Psych/ab_data/cbt/user_15_session_7.json",
+      "session_dialogue": {
+        "field": "session_dialogue",
+        "ok": true,
+        "num_turns": 33,
+        "issues": []
+      },
+      "refined_session": {
+        "field": "refined_session",
+        "ok": true,
+        "num_turns": 49,
+        "issues": []
+      }
+    },
+    {
+      "file": "Psych/ab_data/cbt/user_15_session_8.json",
+      "session_dialogue": {
+        "field": "session_dialogue",
+        "ok": true,
+        "num_turns": 33,
+        "issues": []
+      },
+      "refined_session": {
+        "field": "refined_session",
+        "ok": true,
+        "num_turns": 49,
+        "issues": []
+      }
+    },
+    {
+      "file": "Psych/ab_data/cbt/user_15_session_9.json",
+      "session_dialogue": {
+        "field": "session_dialogue",
+        "ok": true,
+        "num_turns": 33,
+        "issues": []
+      },
+      "refined_session": {
+        "field": "refined_session",
+        "ok": true,
+        "num_turns": 41,
+        "issues": []
+      }
+    },
+    {
+      "file": "Psych/ab_data/cbt/user_16_session_1.json",
+      "session_dialogue": {
+        "field": "session_dialogue",
+        "ok": true,
+        "num_turns": 51,
+        "issues": []
+      },
+      "refined_session": {
+        "field": "refined_session",
+        "ok": false,
+        "num_turns": 67,
+        "issues": [
+          {
+            "code": "alternation_break",
+            "break_count": 2,
+            "breaks": [
+              {
+                "idx_prev": 50,
+                "idx": 51,
+                "role": "assistant",
+                "role_prev_raw": "assistant",
+                "role_raw": "assistant"
+              },
+              {
+                "idx_prev": 55,
+                "idx": 56,
+                "role": "assistant",
+                "role_prev_raw": "assistant",
+                "role_raw": "assistant"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "file": "Psych/ab_data/cbt/user_16_session_2.json",
+      "session_dialogue": {
+        "field": "session_dialogue",
+        "ok": true,
+        "num_turns": 37,
+        "issues": []
+      },
+      "refined_session": {
+        "field": "refined_session",
+        "ok": true,
+        "num_turns": 35,
+        "issues": []
+      }
+    },
+    {
+      "file": "Psych/ab_data/cbt/user_16_session_3.json",
+      "session_dialogue": {
+        "field": "session_dialogue",
+        "ok": true,
+        "num_turns": 47,
+        "issues": []
+      },
+      "refined_session": {
+        "field": "refined_session",
+        "ok": true,
+        "num_turns": 57,
+        "issues": []
+      }
+    },
+    {
+      "file": "Psych/ab_data/cbt/user_16_session_4.json",
+      "session_dialogue": {
+        "field": "session_dialogue",
+        "ok": true,
+        "num_turns": 39,
+        "issues": []
+      },
+      "refined_session": {
+        "field": "refined_session",
+        "ok": true,
+        "num_turns": 61,
+        "issues": []
+      }
+    },
+    {
+      "file": "Psych/ab_data/cbt/user_16_session_5.json",
+      "session_dialogue": {
+        "field": "session_dialogue",
+        "ok": true,
+        "num_turns": 41,
+        "issues": []
+      },
+      "refined_session": {
+        "field": "refined_session",
+        "ok": true,
+        "num_turns": 49,
+        "issues": []
+      }
+    },
+    {
+      "file": "Psych/ab_data/cbt/user_16_session_6.json",
+      "session_dialogue": {
+        "field": "session_dialogue",
+        "ok": true,
+        "num_turns": 47,
+        "issues": []
+      },
+      "refined_session": {
+        "field": "refined_session",
+        "ok": false,
+        "num_turns": 44,
+        "issues": [
+          {
+            "code": "alternation_break",
+            "break_count": 1,
+            "breaks": [
+              {
+                "idx_prev": 19,
+                "idx": 20,
+                "role": "user",
+                "role_prev_raw": "user",
+                "role_raw": "user"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "file": "Psych/ab_data/cbt/user_16_session_7.json",
+      "session_dialogue": {
+        "field": "session_dialogue",
+        "ok": true,
+        "num_turns": 35,
+        "issues": []
+      },
+      "refined_session": {
+        "field": "refined_session",
+        "ok": true,
+        "num_turns": 35,
+        "issues": []
+      }
+    },
+    {
+      "file": "Psych/ab_data/cbt/user_16_session_8.json",
+      "session_dialogue": {
+        "field": "session_dialogue",
+        "ok": true,
+        "num_turns": 37,
+        "issues": []
+      },
+      "refined_session": {
+        "field": "refined_session",
+        "ok": true,
+        "num_turns": 33,
+        "issues": []
+      }
+    },
+    {
+      "file": "Psych/ab_data/cbt/user_17_session_1.json",
+      "session_dialogue": {
+        "field": "session_dialogue",
+        "ok": true,
+        "num_turns": 73,
+        "issues": []
+      },
+      "refined_session": {
+        "field": "refined_session",
+        "ok": true,
+        "num_turns": 53,
+        "issues": []
+      }
+    },
+    {
+      "file": "Psych/ab_data/cbt/user_17_session_2.json",
+      "session_dialogue": {
+        "field": "session_dialogue",
+        "ok": true,
+        "num_turns": 59,
+        "issues": []
+      },
+      "refined_session": {
+        "field": "refined_session",
+        "ok": true,
+        "num_turns": 39,
+        "issues": []
+      }
+    },
+    {
+      "file": "Psych/ab_data/cbt/user_17_session_3.json",
+      "session_dialogue": {
+        "field": "session_dialogue",
+        "ok": true,
+        "num_turns": 49,
+        "issues": []
+      },
+      "refined_session": {
+        "field": "refined_session",
+        "ok": true,
+        "num_turns": 59,
+        "issues": []
+      }
+    },
+    {
+      "file": "Psych/ab_data/cbt/user_17_session_4.json",
+      "session_dialogue": {
+        "field": "session_dialogue",
+        "ok": true,
+        "num_turns": 49,
+        "issues": []
+      },
+      "refined_session": {
+        "field": "refined_session",
+        "ok": true,
+        "num_turns": 53,
+        "issues": []
+      }
+    },
+    {
+      "file": "Psych/ab_data/cbt/user_17_session_5.json",
+      "session_dialogue": {
+        "field": "session_dialogue",
+        "ok": true,
+        "num_turns": 35,
+        "issues": []
+      },
+      "refined_session": {
+        "field": "refined_session",
+        "ok": true,
+        "num_turns": 43,
+        "issues": []
+      }
+    },
+    {
+      "file": "Psych/ab_data/cbt/user_18_session_1.json",
+      "session_dialogue": {
+        "field": "session_dialogue",
+        "ok": true,
+        "num_turns": 51,
+        "issues": []
+      },
+      "refined_session": {
+        "field": "refined_session",
+        "ok": true,
+        "num_turns": 41,
+        "issues": []
+      }
+    },
+    {
+      "file": "Psych/ab_data/cbt/user_18_session_2.json",
+      "session_dialogue": {
+        "field": "session_dialogue",
+        "ok": true,
+        "num_turns": 35,
+        "issues": []
+      },
+      "refined_session": {
+        "field": "refined_session",
+        "ok": true,
+        "num_turns": 39,
+        "issues": []
+      }
+    },
+    {
+      "file": "Psych/ab_data/cbt/user_18_session_3.json",
+      "session_dialogue": {
+        "field": "session_dialogue",
+        "ok": true,
+        "num_turns": 49,
+        "issues": []
+      },
+      "refined_session": {
+        "field": "refined_session",
+        "ok": true,
+        "num_turns": 41,
+        "issues": []
+      }
+    },
+    {
+      "file": "Psych/ab_data/cbt/user_18_session_4.json",
+      "session_dialogue": {
+        "field": "session_dialogue",
+        "ok": true,
+        "num_turns": 53,
+        "issues": []
+      },
+      "refined_session": {
+        "field": "refined_session",
+        "ok": true,
+        "num_turns": 47,
+        "issues": []
+      }
+    },
+    {
+      "file": "Psych/ab_data/cbt/user_18_session_5.json",
+      "session_dialogue": {
+        "field": "session_dialogue",
+        "ok": true,
+        "num_turns": 33,
+        "issues": []
+      },
+      "refined_session": {
+        "field": "refined_session",
+        "ok": true,
+        "num_turns": 49,
+        "issues": []
+      }
+    },
+    {
+      "file": "Psych/ab_data/cbt/user_18_session_6.json",
+      "session_dialogue": {
+        "field": "session_dialogue",
+        "ok": true,
+        "num_turns": 47,
+        "issues": []
+      },
+      "refined_session": {
+        "field": "refined_session",
+        "ok": true,
+        "num_turns": 61,
+        "issues": []
+      }
+    },
+    {
+      "file": "Psych/ab_data/cbt/user_18_session_7.json",
+      "session_dialogue": {
+        "field": "session_dialogue",
+        "ok": true,
+        "num_turns": 41,
+        "issues": []
+      },
+      "refined_session": {
+        "field": "refined_session",
+        "ok": true,
+        "num_turns": 43,
+        "issues": []
+      }
+    },
+    {
+      "file": "Psych/ab_data/cbt/user_18_session_8.json",
+      "session_dialogue": {
+        "field": "session_dialogue",
+        "ok": true,
+        "num_turns": 35,
+        "issues": []
+      },
+      "refined_session": {
+        "field": "refined_session",
+        "ok": true,
+        "num_turns": 31,
+        "issues": []
+      }
+    },
+    {
+      "file": "Psych/ab_data/cbt/user_19_session_1.json",
+      "session_dialogue": {
+        "field": "session_dialogue",
+        "ok": true,
+        "num_turns": 41,
+        "issues": []
+      },
+      "refined_session": {
+        "field": "refined_session",
+        "ok": false,
+        "num_turns": 64,
+        "issues": [
+          {
+            "code": "alternation_break",
+            "break_count": 1,
+            "breaks": [
+              {
+                "idx_prev": 53,
+                "idx": 54,
+                "role": "user",
+                "role_prev_raw": "user",
+                "role_raw": "user"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "file": "Psych/ab_data/cbt/user_19_session_2.json",
+      "session_dialogue": {
+        "field": "session_dialogue",
+        "ok": true,
+        "num_turns": 51,
+        "issues": []
+      },
+      "refined_session": {
+        "field": "refined_session",
+        "ok": true,
+        "num_turns": 49,
+        "issues": []
+      }
+    },
+    {
+      "file": "Psych/ab_data/cbt/user_19_session_3.json",
+      "session_dialogue": {
+        "field": "session_dialogue",
+        "ok": true,
+        "num_turns": 55,
+        "issues": []
+      },
+      "refined_session": {
+        "field": "refined_session",
+        "ok": false,
+        "num_turns": 50,
+        "issues": [
+          {
+            "code": "alternation_break",
+            "break_count": 1,
+            "breaks": [
+              {
+                "idx_prev": 33,
+                "idx": 34,
+                "role": "user",
+                "role_prev_raw": "user",
+                "role_raw": "user"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "file": "Psych/ab_data/cbt/user_19_session_4.json",
+      "session_dialogue": {
+        "field": "session_dialogue",
+        "ok": true,
+        "num_turns": 35,
+        "issues": []
+      },
+      "refined_session": {
+        "field": "refined_session",
+        "ok": true,
+        "num_turns": 39,
+        "issues": []
+      }
+    },
+    {
+      "file": "Psych/ab_data/cbt/user_19_session_5.json",
+      "session_dialogue": {
+        "field": "session_dialogue",
+        "ok": true,
+        "num_turns": 51,
+        "issues": []
+      },
+      "refined_session": {
+        "field": "refined_session",
+        "ok": true,
+        "num_turns": 47,
+        "issues": []
+      }
+    },
+    {
+      "file": "Psych/ab_data/cbt/user_19_session_6.json",
+      "session_dialogue": {
+        "field": "session_dialogue",
+        "ok": true,
+        "num_turns": 49,
+        "issues": []
+      },
+      "refined_session": {
+        "field": "refined_session",
+        "ok": false,
+        "num_turns": 56,
+        "issues": [
+          {
+            "code": "alternation_break",
+            "break_count": 1,
+            "breaks": [
+              {
+                "idx_prev": 41,
+                "idx": 42,
+                "role": "user",
+                "role_prev_raw": "user",
+                "role_raw": "user"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "file": "Psych/ab_data/cbt/user_19_session_7.json",
+      "session_dialogue": {
+        "field": "session_dialogue",
+        "ok": true,
+        "num_turns": 45,
+        "issues": []
+      },
+      "refined_session": {
+        "field": "refined_session",
+        "ok": false,
+        "num_turns": 54,
+        "issues": [
+          {
+            "code": "alternation_break",
+            "break_count": 1,
+            "breaks": [
+              {
+                "idx_prev": 41,
+                "idx": 42,
+                "role": "user",
+                "role_prev_raw": "user",
+                "role_raw": "user"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "file": "Psych/ab_data/cbt/user_19_session_8.json",
+      "session_dialogue": {
+        "field": "session_dialogue",
+        "ok": true,
+        "num_turns": 39,
+        "issues": []
+      },
+      "refined_session": {
+        "field": "refined_session",
+        "ok": true,
+        "num_turns": 63,
+        "issues": []
+      }
+    },
+    {
+      "file": "Psych/ab_data/cbt/user_19_session_9.json",
+      "session_dialogue": {
+        "field": "session_dialogue",
+        "ok": true,
+        "num_turns": 45,
+        "issues": []
+      },
+      "refined_session": {
+        "field": "refined_session",
+        "ok": true,
+        "num_turns": 39,
+        "issues": []
+      }
+    },
+    {
+      "file": "Psych/ab_data/cbt/user_1_session_1.json",
+      "session_dialogue": {
+        "field": "session_dialogue",
+        "ok": true,
+        "num_turns": 55,
+        "issues": []
+      },
+      "refined_session": {
+        "field": "refined_session",
+        "ok": true,
+        "num_turns": 57,
+        "issues": []
+      }
+    },
+    {
+      "file": "Psych/ab_data/cbt/user_1_session_2.json",
+      "session_dialogue": {
+        "field": "session_dialogue",
+        "ok": true,
+        "num_turns": 41,
+        "issues": []
+      },
+      "refined_session": {
+        "field": "refined_session",
+        "ok": false,
+        "num_turns": 38,
+        "issues": [
+          {
+            "code": "alternation_break",
+            "break_count": 1,
+            "breaks": [
+              {
+                "idx_prev": 28,
+                "idx": 29,
+                "role": "assistant",
+                "role_prev_raw": "assistant",
+                "role_raw": "assistant"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "file": "Psych/ab_data/cbt/user_1_session_3.json",
+      "session_dialogue": {
+        "field": "session_dialogue",
+        "ok": true,
+        "num_turns": 41,
+        "issues": []
+      },
+      "refined_session": {
+        "field": "refined_session",
+        "ok": true,
+        "num_turns": 47,
+        "issues": []
+      }
+    },
+    {
+      "file": "Psych/ab_data/cbt/user_1_session_4.json",
+      "session_dialogue": {
+        "field": "session_dialogue",
+        "ok": true,
+        "num_turns": 51,
+        "issues": []
+      },
+      "refined_session": {
+        "field": "refined_session",
+        "ok": true,
+        "num_turns": 49,
+        "issues": []
+      }
+    },
+    {
+      "file": "Psych/ab_data/cbt/user_1_session_5.json",
+      "session_dialogue": {
+        "field": "session_dialogue",
+        "ok": true,
+        "num_turns": 41,
+        "issues": []
+      },
+      "refined_session": {
+        "field": "refined_session",
+        "ok": true,
+        "num_turns": 47,
+        "issues": []
+      }
+    },
+    {
+      "file": "Psych/ab_data/cbt/user_1_session_6.json",
+      "session_dialogue": {
+        "field": "session_dialogue",
+        "ok": true,
+        "num_turns": 47,
+        "issues": []
+      },
+      "refined_session": {
+        "field": "refined_session",
+        "ok": true,
+        "num_turns": 51,
+        "issues": []
+      }
+    },
+    {
+      "file": "Psych/ab_data/cbt/user_1_session_7.json",
+      "session_dialogue": {
+        "field": "session_dialogue",
+        "ok": true,
+        "num_turns": 49,
+        "issues": []
+      },
+      "refined_session": {
+        "field": "refined_session",
+        "ok": true,
+        "num_turns": 41,
+        "issues": []
+      }
+    },
+    {
+      "file": "Psych/ab_data/cbt/user_20_session_1.json",
+      "session_dialogue": {
+        "field": "session_dialogue",
+        "ok": true,
+        "num_turns": 63,
+        "issues": []
+      },
+      "refined_session": {
+        "field": "refined_session",
+        "ok": true,
+        "num_turns": 63,
+        "issues": []
+      }
+    },
+    {
+      "file": "Psych/ab_data/cbt/user_20_session_2.json",
+      "session_dialogue": {
+        "field": "session_dialogue",
+        "ok": true,
+        "num_turns": 51,
+        "issues": []
+      },
+      "refined_session": {
+        "field": "refined_session",
+        "ok": true,
+        "num_turns": 55,
+        "issues": []
+      }
+    },
+    {
+      "file": "Psych/ab_data/cbt/user_20_session_3.json",
+      "session_dialogue": {
+        "field": "session_dialogue",
+        "ok": true,
+        "num_turns": 65,
+        "issues": []
+      },
+      "refined_session": {
+        "field": "refined_session",
+        "ok": true,
+        "num_turns": 51,
+        "issues": []
+      }
+    },
+    {
+      "file": "Psych/ab_data/cbt/user_20_session_4.json",
+      "session_dialogue": {
+        "field": "session_dialogue",
+        "ok": true,
+        "num_turns": 53,
+        "issues": []
+      },
+      "refined_session": {
+        "field": "refined_session",
+        "ok": true,
+        "num_turns": 55,
+        "issues": []
+      }
+    },
+    {
+      "file": "Psych/ab_data/cbt/user_20_session_5.json",
+      "session_dialogue": {
+        "field": "session_dialogue",
+        "ok": true,
+        "num_turns": 57,
+        "issues": []
+      },
+      "refined_session": {
+        "field": "refined_session",
+        "ok": true,
+        "num_turns": 53,
+        "issues": []
+      }
+    },
+    {
+      "file": "Psych/ab_data/cbt/user_20_session_6.json",
+      "session_dialogue": {
+        "field": "session_dialogue",
+        "ok": true,
+        "num_turns": 33,
+        "issues": []
+      },
+      "refined_session": {
+        "field": "refined_session",
+        "ok": true,
+        "num_turns": 47,
+        "issues": []
+      }
+    },
+    {
+      "file": "Psych/ab_data/cbt/user_21_session_1.json",
+      "session_dialogue": {
+        "field": "session_dialogue",
+        "ok": true,
+        "num_turns": 53,
+        "issues": []
+      },
+      "refined_session": {
+        "field": "refined_session",
+        "ok": true,
+        "num_turns": 69,
+        "issues": []
+      }
+    },
+    {
+      "file": "Psych/ab_data/cbt/user_21_session_2.json",
+      "session_dialogue": {
+        "field": "session_dialogue",
+        "ok": true,
+        "num_turns": 51,
+        "issues": []
+      },
+      "refined_session": {
+        "field": "refined_session",
+        "ok": true,
+        "num_turns": 75,
+        "issues": []
+      }
+    },
+    {
+      "file": "Psych/ab_data/cbt/user_21_session_3.json",
+      "session_dialogue": {
+        "field": "session_dialogue",
+        "ok": true,
+        "num_turns": 45,
+        "issues": []
+      },
+      "refined_session": {
+        "field": "refined_session",
+        "ok": true,
+        "num_turns": 45,
+        "issues": []
+      }
+    },
+    {
+      "file": "Psych/ab_data/cbt/user_21_session_4.json",
+      "session_dialogue": {
+        "field": "session_dialogue",
+        "ok": true,
+        "num_turns": 45,
+        "issues": []
+      },
+      "refined_session": {
+        "field": "refined_session",
+        "ok": true,
+        "num_turns": 47,
+        "issues": []
+      }
+    },
+    {
+      "file": "Psych/ab_data/cbt/user_21_session_5.json",
+      "session_dialogue": {
+        "field": "session_dialogue",
+        "ok": true,
+        "num_turns": 47,
+        "issues": []
+      },
+      "refined_session": {
+        "field": "refined_session",
+        "ok": true,
+        "num_turns": 47,
+        "issues": []
+      }
+    },
+    {
+      "file": "Psych/ab_data/cbt/user_22_session_1.json",
+      "session_dialogue": {
+        "field": "session_dialogue",
+        "ok": true,
+        "num_turns": 63,
+        "issues": []
+      },
+      "refined_session": {
+        "field": "refined_session",
+        "ok": true,
+        "num_turns": 77,
+        "issues": []
+      }
+    },
+    {
+      "file": "Psych/ab_data/cbt/user_22_session_2.json",
+      "session_dialogue": {
+        "field": "session_dialogue",
+        "ok": true,
+        "num_turns": 43,
+        "issues": []
+      },
+      "refined_session": {
+        "field": "refined_session",
+        "ok": true,
+        "num_turns": 55,
+        "issues": []
+      }
+    },
+    {
+      "file": "Psych/ab_data/cbt/user_22_session_3.json",
+      "session_dialogue": {
+        "field": "session_dialogue",
+        "ok": true,
+        "num_turns": 57,
+        "issues": []
+      },
+      "refined_session": {
+        "field": "refined_session",
+        "ok": true,
+        "num_turns": 53,
+        "issues": []
+      }
+    },
+    {
+      "file": "Psych/ab_data/cbt/user_22_session_4.json",
+      "session_dialogue": {
+        "field": "session_dialogue",
+        "ok": true,
+        "num_turns": 45,
+        "issues": []
+      },
+      "refined_session": {
+        "field": "refined_session",
+        "ok": true,
+        "num_turns": 55,
+        "issues": []
+      }
+    },
+    {
+      "file": "Psych/ab_data/cbt/user_22_session_5.json",
+      "session_dialogue": {
+        "field": "session_dialogue",
+        "ok": true,
+        "num_turns": 45,
+        "issues": []
+      },
+      "refined_session": {
+        "field": "refined_session",
+        "ok": true,
+        "num_turns": 57,
+        "issues": []
+      }
+    },
+    {
+      "file": "Psych/ab_data/cbt/user_22_session_6.json",
+      "session_dialogue": {
+        "field": "session_dialogue",
+        "ok": true,
+        "num_turns": 43,
+        "issues": []
+      },
+      "refined_session": {
+        "field": "refined_session",
+        "ok": true,
+        "num_turns": 37,
+        "issues": []
+      }
+    },
+    {
+      "file": "Psych/ab_data/cbt/user_22_session_7.json",
+      "session_dialogue": {
+        "field": "session_dialogue",
+        "ok": true,
+        "num_turns": 39,
+        "issues": []
+      },
+      "refined_session": {
+        "field": "refined_session",
+        "ok": true,
+        "num_turns": 55,
+        "issues": []
+      }
+    },
+    {
+      "file": "Psych/ab_data/cbt/user_22_session_8.json",
+      "session_dialogue": {
+        "field": "session_dialogue",
+        "ok": true,
+        "num_turns": 35,
+        "issues": []
+      },
+      "refined_session": {
+        "field": "refined_session",
+        "ok": true,
+        "num_turns": 43,
+        "issues": []
+      }
+    },
+    {
+      "file": "Psych/ab_data/cbt/user_22_session_9.json",
+      "session_dialogue": {
+        "field": "session_dialogue",
+        "ok": true,
+        "num_turns": 31,
+        "issues": []
+      },
+      "refined_session": {
+        "field": "refined_session",
+        "ok": true,
+        "num_turns": 37,
+        "issues": []
+      }
+    },
+    {
+      "file": "Psych/ab_data/cbt/user_23_session_1.json",
+      "session_dialogue": {
+        "field": "session_dialogue",
+        "ok": true,
+        "num_turns": 57,
+        "issues": []
+      },
+      "refined_session": {
+        "field": "refined_session",
+        "ok": true,
+        "num_turns": 63,
+        "issues": []
+      }
+    },
+    {
+      "file": "Psych/ab_data/cbt/user_23_session_2.json",
+      "session_dialogue": {
+        "field": "session_dialogue",
+        "ok": true,
+        "num_turns": 41,
+        "issues": []
+      },
+      "refined_session": {
+        "field": "refined_session",
+        "ok": true,
+        "num_turns": 37,
+        "issues": []
+      }
+    }
+  ]
+}

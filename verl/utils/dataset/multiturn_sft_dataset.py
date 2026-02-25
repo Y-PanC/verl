@@ -54,7 +54,7 @@ def convert_nested_value_to_list_recursive(data_item):
 
 
 class MultiTurnSFTDataset(Dataset):
-    """
+    """MultiTurnSFTDataset
     Dataset for multi-turn conversations where each assistant response should be trained
 
     Args:

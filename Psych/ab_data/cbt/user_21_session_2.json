@@ -1,0 +1,572 @@
+{
+    "client_id": "21",
+    "session_number": 2,
+    "session_dialogue": [
+        {
+            "role": "assistant",
+            "content": "<think><assessment>第二次会面，来访者上次合作度高。先用温暖简短开场并结构化今天流程，再请她用主观强度定位当下状态，有助于对齐节奏与安全感。</assessment><client_state>尚未发言，预计轻度紧张与期待并存。</client_state><skill>5804:宣告并协商当次主题与议程; 102004:用0–10评分量化心境与痛苦</skill><strategy>简要说明今天会谈步骤并征询同意，然后请她用0–10估当前困扰强度，建立基线。</strategy></think>清宁，欢迎回来。今天我们先复盘上周的小练习和记录，再一起把“困扰”外化出来、勾勒一张家庭关系示意图，做个边界的两列小练习，最后定几个本周可执行的小行动。我会边听边记要点，必要时会帮你整理，可以吗？另外，如果把此刻的心情/困扰放在0是很平稳、10是非常难受之间，你大概在哪个区间？"
+        },
+        {
+            "role": "user",
+            "content": "可以的，这样更踏实。此刻大概在5到6之间。"
+        },
+        {
+            "role": "assistant",
+            "content": "<think><assessment>强度5–6，较上次可能有所下降。先从最易执行且有体感收益的呼吸练习开始复盘，利于建立成就感。</assessment><client_state>合作、克制而开放。</client_state><skill>15408:回顾家庭作业并据此确定本次重点</skill><strategy>询问腹式呼吸的执行频率与感受，作为复盘入口。</strategy></think>好的。我们先从腹式呼吸说起，这周你大概练了几天、每次多久？做完当下身体或心里的感觉有什么变化？"
+        },
+        {
+            "role": "user",
+            "content": "几乎每天睡前都会做，3到5分钟。做完胸口会松一点，脑子也慢下来。有一晚因为太晚了就忘了。"
+        },
+        {
+            "role": "assistant",
+            "content": "<think><assessment>有稳定练习和主观改善，值得强化；顺势问到障碍与提醒方式，巩固习惯。</assessment><client_state>带一点成就感，仍谨慎。</client_state><skill>15408:回顾家庭作业并据此确定本次重点</skill><strategy>追问最常见的执行障碍与她的提醒办法，强化可持续性。</strategy></think>坚持很好。如果回看这一周，最容易影响你练习的障碍是什么？你是怎么提醒自己坚持的？"
+        },
+        {
+            "role": "user",
+            "content": "容易被作业拖到很晚就忘了。我给自己设了十点半的闹钟，洗漱前做一轮，基本能记得。"
+        },
+        {
+            "role": "assistant",
+            "content": "<think><assessment>进入S–O–R记录复盘，先核对完成度，再选一条具体化，提炼触发与反应模式。</assessment><client_state>配合度高，表达清晰。</client_state><skill>15408:回顾家庭作业并据此确定本次重点</skill><strategy>先确认记录次数，再请她选一条印象最深的记录，简要走一遍触发—想法—情绪/反应。</strategy></think>关于睡前的S–O–R小记录，你这周大概记了几次？能不能选一条对你影响最大的，简单说说当时的触发、你脑中冒出的想法，以及当时的感受和身体反应？"
+        },
+        {
+            "role": "user",
+            "content": "记了三次。印象最深的是有一晚妈妈发来好几条信息，说和姐姐又闹得很僵。我当时脑子里先跳出“好像只能靠我了，不然会更糟”。感觉焦虑、自责，胸口闷，心跳加快。"
+        },
+        {
+            "role": "assistant",
+            "content": "<think><assessment>很好，有具体链条。现在提炼共通触发线索，形成触发清单，便于外化与边界练习对接。</assessment><client_state>条理性强，投入稳定。</client_state><skill>356408:列出高频触发线索与话题</skill><strategy>请她从几次记录里归纳最常见的触发词/情境与出现时段。</strategy></think>从你的三次记录看，最常见的触发更集中在什么时候、来自谁或哪些话题？如果用“晚上/白天、谁的信息/电话、某些关键词”来描述，你会怎么归纳？"
+        },
+        {
+            "role": "user",
+            "content": "主要是晚上，妈妈的信息或电话，还有一想到妹妹的中考或听到别人提起我爸的事，就容易陷进去。"
+        },
+        {
+            "role": "assistant",
+            "content": "<think><assessment>接着复盘微行动（散步/最小社交），强化正向体验，兼顾社交轻度恢复。</assessment><client_state>情绪逐渐稳定，有些希望感。</client_state><skill>25001:及时肯定与鼓励努力与进步</skill><strategy>询问散步与最小问候的执行与感受，给予具体肯定。</strategy></think>关于微行动，这周你有做散步或最小的问候吗？做完之后，心情或身体有没有哪怕一点点变化？"
+        },
+        {
+            "role": "user",
+            "content": "有做。周三和周六晚饭后各散步了一次，和室友聊了会儿，感觉比闷在宿舍轻一点。"
+        },
+        {
+            "role": "assistant",
+            "content": "<think><assessment>很好。现在把睡眠关键指标具体化，建立变化趋势，为后续边界实践的观察做基线。</assessment><client_state>稳定、愿意客观回顾。</client_state><skill>121403:指导并收集睡眠监测关键指标</skill><strategy>聚焦入睡潜伏期的平均与波动，再补充夜间觉醒的情况。</strategy></think>说到睡眠，这周你平均需要多久能睡着？有没有你印象里最短和最长的两晚？夜里会不会醒来？"
+        },
+        {
+            "role": "user",
+            "content": "平均大概60到70分钟，最短一晚大约45分钟，最长接近90分钟。夜里偶尔醒一次。"
+        },
+        {
+            "role": "assistant",
+            "content": "<think><assessment>继续量化反复想与日间功能变化，用词语锚定，帮助她看到趋势。</assessment><client_state>客观报告，合作稳定。</client_state><skill>174004:量化严重度、频率与持续时间</skill><strategy>用词语分档方式询问夜间反复想的频率和强度以及上课专注度变化。</strategy></think>关于夜里反复想家里的事，这周的频率更像“少一些/差不多/多一些”？当时的强度更接近“轻/中/强”的哪一档？白天上课专注度现在更像“勉强能跟上/基本能跟上/比较轻松能跟上”？"
+        },
+        {
+            "role": "user",
+            "content": "频率少一些，从一周三四晚变成两三晚，强度从强降到中偏上。上课基本能跟上，偶尔走神。"
+        },
+        {
+            "role": "assistant",
+            "content": "<think><assessment>进入问题外化，用命名创造心理距离，为后续边界与系统图搭桥。</assessment><client_state>准备好尝试新方法。</client_state><skill>303404:概述本次任务与流程并按项推进</skill><strategy>邀请她为这团“家庭相关的困扰”起个名字，开启外化。</strategy></think>我们做个小练习，把这团和家庭有关的困扰当成一个外在的“东西”。如果给它起个名字，你第一反应会叫什么？"
+        },
+        {
+            "role": "user",
+            "content": "我会叫它“家庭漩涡”。"
+        },
+        {
+            "role": "assistant",
+            "content": "<think><assessment>有了外化名称，继续具体化它出现的时段、频率、对行为的拉力，并观察自责是否有所下降。</assessment><client_state>进入观察者位置，距离感增加。</client_state><skill>303404:概述本次任务与流程并按项推进</skill><strategy>询问“家庭漩涡”何时靠近、通常持续多久、最常把她拉去做什么，并请她给自责标档。</strategy></think>当“家庭漩涡”靠近你时，通常是哪些时刻、一次会盘旋多久、最常把你拉去做什么？如果给“自责”的感觉标个强度，现在更像“强/中/轻”的哪一档？"
+        },
+        {
+            "role": "user",
+            "content": "多在晚上，尤其临睡前或收到妈妈信息的时候，一次会持续一两个小时，让我反复想要怎么解决。自责现在大概是中偏上。"
+        },
+        {
+            "role": "assistant",
+            "content": "<think><assessment>转入家谱图与系统视角，先收集三代成员的基本轮廓。接下来保持好奇而不预设。</assessment><client_state>理性、愿意提供资料。</client_state><skill>452411:收集主要养育背景与照料结构</skill><strategy>请她概述三代成员与主要构成，作为家谱轮廓。</strategy></think>我们把系统图的轮廓画清楚一些：能不能简要说一下你们家三代成员的基本情况？比如爷爷奶奶、外公外婆、爸爸妈妈，以及你们三姐妹各自的基本状态。"
+        },
+        {
+            "role": "user",
+            "content": "爷爷奶奶在老家，联系不算多；外婆在世，外公已经去世。父母关系一直不太好。我们三姐妹里，我姐初中后辍学打工，妹妹现在准备中考，我在读研二。"
+        },
+        {
+            "role": "assistant",
+            "content": "<think><assessment>进一步补充早年照料的时间线与居住变动，这是纵向概念化的关键节点。</assessment><client_state>回忆顺畅、语气平稳。</client_state><skill>212413:梳理家庭结构与监护/抚养变动</skill><strategy>询问从寄养到与父母生活的时间节点与感受简述。</strategy></think>在照料与居住方面，你是什么时候由亲戚照看，何时又转回与父母一起生活？如果用一句话形容当时的感受，会是什么？"
+        },
+        {
+            "role": "user",
+            "content": "幼儿期多处寄养，小学三年级前在外省生活比较快乐，后来返乡就和父母一起了。返乡后感觉环境变得压抑。"
+        },
+        {
+            "role": "assistant",
+            "content": "<think><assessment>现在请她点出2–3个让家庭关系明显变化的关键事件，便于标注系统图节点。</assessment><client_state>可能触及情绪记忆，需温和。</client_state><skill>226815:梳理父母关系冲突与关键家庭事件</skill><strategy>邀请选择2–3个关系明显变化的节点，不深入细节。</strategy></think>如果让你选出2到3个让家庭关系明显发生变化的节点，你会选哪些？我们先标注在图里，细节可以以后再谈。"
+        },
+        {
+            "role": "user",
+            "content": "小学高年级有一次被妈妈误会、挨骂很厉害，影响很大；妹妹出生后妈妈更偏爱妹妹，我觉得自己又被忽视；后来听到关于爸爸和同事的传闻，家里常年因此争吵。"
+        },
+        {
+            "role": "assistant",
+            "content": "<think><assessment>这一段容易激发核心信念“我不重要”。先进行情感验证，再轻量化评估当下激活强度，随后再回到边界与系统。</assessment><client_state>可能出现委屈与无力感。</client_state><skill>303401:聚焦感受的开放式提问</skill><strategy>先验证感受，再用词语量化当下“我不重要”的激活强度。</strategy></think>这些经历对你来说很沉重，会让人既委屈又无力。我想轻轻确认一下：当你现在回想“被误会挨骂、被忽视”时，“我不重要”的感觉此刻更像“强/中/轻”的哪一档？"
+        },
+        {
+            "role": "user",
+            "content": "现在大概是中等。比小时候的那种强烈要弱一些，但还是会刺一下。"
+        },
+        {
+            "role": "assistant",
+            "content": "<think><assessment>承接她的情绪，再转向当下的边界模糊点，连接到后续两列法练习。</assessment><client_state>开放且克制，能识别感受强度。</client_state><skill>32:表达理解与共情</skill><strategy>先接住情绪，再问当前最模糊的两段关系，为两列法铺路。</strategy></think>谢谢你把这种“刺一下”的感觉说出来，确实不容易。放在现在，你觉得家庭里对你来说边界最模糊的关系是哪两段？"
+        },
+        {
+            "role": "user",
+            "content": "我和妈妈，还有我和姐姐。妈妈会在情绪很满的时候找我，我也很难拒绝；我和姐姐很多事不直接说，容易误会。"
+        },
+        {
+            "role": "assistant",
+            "content": "<think><assessment>进入边界两列法练习，先从“我能影响”的清单开始，增强掌控感。</assessment><client_state>愿意尝试具体化，动机在。</client_state><skill>303404:概述本次任务与流程并按项推进</skill><strategy>解释两列法，让她先列出“我能影响/我的部分”的三件具体小事。</strategy></think>我们在图旁边做个“两列小表”。左边写“我能影响/我的部分”，右边写“我不能控制/别人的部分”。先从左边开始：在你和妈妈、姐姐的互动里，你能影响的三件具体小事，会是什么？"
+        },
+        {
+            "role": "user",
+            "content": "我能影响的有：接电话的时段；表达方式（尽量简洁、温和）；我自己的学习安排。"
+        },
+        {
+            "role": "assistant",
+            "content": "<think><assessment>继续完善右列，帮助她区分责任，降低个体化归因。</assessment><client_state>边界感逐步清晰。</client_state><skill>303404:概述本次任务与流程并按项推进</skill><strategy>请她补充“我不能控制”的三项，巩固区分。</strategy></think>很好。那右边“我不能控制/不属于我的决定”的三件事，会是什么？"
+        },
+        {
+            "role": "user",
+            "content": "爸爸的选择；姐姐是否要钱、怎么处理和妈妈的矛盾；妹妹对学习的态度。"
+        },
+        {
+            "role": "assistant",
+            "content": "<think><assessment>清单已成，邀请她从可控列挑选一个本周的具体边界实践，形成行为切入点。</assessment><client_state>开始看到可做之处，愿意行动。</client_state><skill>516000:协商并明确近期具体目标</skill><strategy>请她从左列挑一项，转化为具体操作，作为本周练习。</strategy></think>很清楚。我们从左边挑一项，作为这周的边界实践。你更想先从哪一项开始？"
+        },
+        {
+            "role": "user",
+            "content": "先从限定夜间通话时间开始吧。比如超过10分钟就先约到第二天中午再聊。"
+        },
+        {
+            "role": "assistant",
+            "content": "<think><assessment>把边界行动做成可观察的小实验，明确记录指标，为下周复盘做好数据基础。</assessment><client_state>目标明确，执行意愿好。</client_state><skill>587002:介绍并布置思维记录表</skill><strategy>提出S–O–R观察要点：通话时长、当时主要情绪及强度、当晚入睡潜伏期、第二天上课专注度。</strategy></think>很好，我们把它做成一个小观察。本周目标是尝试三次“夜间通话10分钟”。每次记四个点：通话时长；当时你最明显的情绪词和强度（轻/中/强）；当晚入睡大概多久；第二天上课专注度（勉强/基本/较轻松）。这样安排可以吗？"
+        },
+        {
+            "role": "user",
+            "content": "可以，我会照着记。"
+        },
+        {
+            "role": "assistant",
+            "content": "<think><assessment>为可能的阻力预做If–Then预案，减少执行时的内疚与心软导致的拖延。</assessment><client_state>积极，但对妈妈的情绪可能心软。</client_state><skill>366203:明确记录时机并持续反馈</skill><strategy>请她预判最大阻力，并写出到点时的温和措辞，形成脚本化支持。</strategy></think>你预判最大的阻力是什么？如果当下妈妈情绪很满，超过10分钟还很难结束，我们做个If–Then预案：到点时你准备用什么温和的句子来先暂停，再约到第二天中午继续？"
+        },
+        {
+            "role": "user",
+            "content": "我容易心软，怕她更难过。我可以提前发信息说明晚上要学习，通话尽量控制在10分钟；到点时说“妈，我这边要休息了，明天中午我再好好听你讲”，并定个具体时间。"
+        },
+        {
+            "role": "assistant",
+            "content": "<think><assessment>很好。现在在系统图旁加入“情绪与意义标签”，让她更立体地看关系对她的影响。</assessment><client_state>结构化程度高，能具体表达。</client_state><skill>303401:聚焦感受的开放式提问</skill><strategy>请她为妈妈、爸爸、姐姐、妹妹各用1–2个情绪词和一个意义词（如被看见/被忽视）标注，并标强度档位。</strategy></think>在系统图旁边，我们再贴几个小标签：关于妈妈、爸爸、姐姐、妹妹，你各用1–2个情绪词和一个“意义词”（比如被看见/被忽视），并用“轻/中/强”做个强度标记，好吗？"
+        },
+        {
+            "role": "user",
+            "content": "妈妈：心疼、压力（中到强），意义是“被需要”；爸爸：愤怒、不信任（强），意义是“被伤害过的担心”；姐姐：委屈、疏远（中），意义是“想靠近又怕冲突”；妹妹：担心、无力（中到强），意义是“责任感很重”。"
+        },
+        {
+            "role": "assistant",
+            "content": "<think><assessment>为了维持行为端的积极动量，再确认一项轻量的身心激活计划，有助于睡眠与注意力改善。</assessment><client_state>有行动意愿，体力与时间需平衡。</client_state><skill>516000:协商并明确近期具体目标</skill><strategy>邀请她在本周再选一项最小可行的身心激活动作（如15–20分钟散步/羽毛球），具体到时间地点。</strategy></think>为保持这个“向前的劲头”，本周你还愿意再保留或新增一个最小可行的身心激活动作吗？比如固定一晚15–20分钟散步或一次轻松的羽毛球。你想选哪一个，并打算安排在什么时候、在哪里？"
+        },
+        {
+            "role": "user",
+            "content": "我继续散步吧。周三和周六晚饭后，在校园里走15到20分钟，尽量约上室友。"
+        },
+        {
+            "role": "assistant",
+            "content": "<think><assessment>将所有任务收束为清晰的会后清单，并进入下次深入的素材准备，优先围绕“妈妈”。</assessment><client_state>清晰、务实，倾向电子记录。</client_state><skill>461805:布置自助/家庭作业并约定回顾</skill><strategy>列出作业三项（呼吸+边界实践记录+散步），并请她在“妈妈或姐姐”中选一个作为下次的重点人物。</strategy></think>我们把这周的会后安排整理成小清单：\n- 每天睡前3–5分钟腹式呼吸（白天情绪上来时1–2分钟）；\n- 完成三次“夜间通话10分钟”的边界实践，并按S–O–R记录四个点；\n- 周三/周六各散步15–20分钟，简单记录心情变化。\n同时，我们下次准备聚焦一位关键人物做更系统的梳理（妈妈或姐姐二选一），你更想先选谁？"
+        },
+        {
+            "role": "user",
+            "content": "先选妈妈。"
+        },
+        {
+            "role": "assistant",
+            "content": "<think><assessment>为下次ASIF式工作做准备，让她带来结构化的素材，增强连续性与深度。</assessment><client_state>动机好，愿意准备材料。</client_state><skill>529403:布置事件—情绪—影响记录作业</skill><strategy>请她围绕“妈妈”写3–5个关键事件与3个典型自动化想法，作为下次讨论素材。</strategy></think>好的。那围绕“妈妈”，请你写下从她童年至今让你印象深刻的3–5个关键事件，以及你对她最常冒出来的3个典型想法（比如她情绪上来时你脑中最容易跳出的担心或评价）。下次我们据此更系统地看“情境—想法—情绪—反应”，可以吗？"
+        },
+        {
+            "role": "user",
+            "content": "可以，我会写下来。这样下次会更清楚。"
+        },
+        {
+            "role": "assistant",
+            "content": "<think><assessment>在结束前做一次简短的自我总结促进内化，再安排下次时间，最后用陈述句收束。</assessment><client_state>平稳、带方向感与希望感。</client_state><skill>32:表达理解与共情</skill><strategy>先请她用一个词概括今天的收获，再确认下周时间。</strategy></think>如果用一个词带走今天的收获，你会选哪个？另外，下周同一时间我们继续，可以吗？"
+        },
+        {
+            "role": "user",
+            "content": "我会选“边界”。下周这个时间可以。"
+        },
+        {
+            "role": "assistant",
+            "content": "<think><assessment>用具体化肯定与简要回顾要点作为结束，巩固联盟与方向感，以陈述句收尾。</assessment><client_state>稳定、被看见，愿意执行。</client_state><skill>25001:及时肯定与鼓励努力与进步</skill><strategy>总结今天的关键收获与会后清单，用肯定语收束。</strategy></think>谢谢你今天稳稳地走完复盘、外化、系统图和边界的小练习，并愿意把“10分钟通话”做成观察。带走的小清单是：每日呼吸、三次边界实践与S–O–R记录、两次散步，以及围绕妈妈准备关键事件与三个典型想法；我们就从这里继续把边界感一点点夯实。"
+        }
+    ],
+    "critique_report": {
+        "global_summary": "该草稿整体结构较完整，覆盖了开场、作业复盘、外化、家谱与边界、微行动与作业安排等环节，但在若干关键细节上违背了“单轮提问负荷控制”“与目标匹配的可行性”和“系统信息的充分性”要求：多轮出现一条消息内叠加多个复杂问题，增加认知负荷；边界实践的作业频次偏重，超出本次目标中‘记录一次实践’的要求；家谱图探索在关系强度与支持节点等方面不够系统；个别议题转换略显突兀，缺少‘验证-桥接’的小过渡，影响体验连贯性。以下列出可操作改进点。",
+        "issues": [
+            {
+                "turn_idx": 6,
+                "error_tag": "单轮提问负荷过重",
+                "severity": "高",
+                "quote": "“你这周大概记了几次？能不能选一条对你影响最大的，简单说说当时的触发、你脑中冒出的想法，以及当时的感受和身体反应？”",
+                "analysis": {
+                    "root_cause": "在同一轮中要求来访者同时回忆记录次数、并就一条记录复盘触发—想法—情绪—生理四个要素，属于复杂检索任务的多项合并。",
+                    "impact": "增加来访者认知负荷，易导致信息遗漏或表述粗略，妨碍S-O-R链条的清晰化与深入；同时弱化苏格拉底式逐步探询的节奏，影响合作感。",
+                    "better_alternative": "分步提问：先确认记录次数；下一轮仅聚焦“当时的触发是什么”；再分轮跟进“那一刻脑中的想法是什么”“情绪和身体反应如何”，逐步拼接完整链条。"
+                }
+            },
+            {
+                "turn_idx": 10,
+                "error_tag": "超过两问的连珠式提问",
+                "severity": "中",
+                "quote": "“说到睡眠，这周你平均需要多久能睡着？有没有你印象里最短和最长的两晚？夜里会不会醒来？”",
+                "analysis": {
+                    "root_cause": "在单轮中连续抛出三个问题且每个问题都需要检索具体时长与极值，超出‘复杂话题单轮一个问题’与‘最多两问’的节奏要求。",
+                    "impact": "使评估对话显得催促，来访者可能只给出模糊或片段化答案，影响睡眠指标的准确性与可追踪性。",
+                    "better_alternative": "分三轮完成：第一轮询问平均入睡时长；第二轮询问近期最快一次大约多久；第三轮询问最慢一次与是否夜醒各自情况。"
+                }
+            },
+            {
+                "turn_idx": 26,
+                "error_tag": "作业负担与目标不匹配",
+                "severity": "高",
+                "quote": "“本周目标是尝试三次‘夜间通话10分钟’……每次记四个点……”",
+                "analysis": {
+                    "root_cause": "在第二次会谈即将边界实践设定为‘三次’，强度与次数明显超出本次目标中‘记录一次边界实践’的最小可行标准。",
+                    "impact": "提高任务门槛，增加执行压力与失败概率，可能削弱自我效能与治疗联盟，尤其在家庭情绪高压情境下更易半途放弃。",
+                    "better_alternative": "遵循‘最小行动’与‘一次观察’原则：先约定一次夜间通话限时的小实验，记录同样四个指标；若体验良好，后续再逐步增加频次。"
+                }
+            },
+            {
+                "turn_idx": 18,
+                "error_tag": "系统信息探索不充分",
+                "severity": "中",
+                "quote": "“能不能简要说一下你们家三代成员的基本情况？”",
+                "analysis": {
+                    "root_cause": "仅获取三代成员轮廓后即转入后续环节，未系统追问关系强度（亲近/疏远）、支持节点、冲突强度与边界模糊处在家谱图上的标注。",
+                    "impact": "家谱图的功能性降低，系统观与边界练习的锚点不完整，使后续概念化与行为实验缺少足够的上下文支撑与标注证据。",
+                    "better_alternative": "在家谱轮廓后追加2–3轮：逐一标注与核心成员的亲近度与冲突强度、谁是稳定支持者、边界最模糊的关系，作为边界两列法的可视化输入。"
+                }
+            },
+            {
+                "turn_idx": 8,
+                "error_tag": "议题切换缺少验证-桥接",
+                "severity": "低",
+                "quote": "从触发线索归纳直接跳到“关于微行动，这周你有做散步或最小的问候吗？”",
+                "analysis": {
+                    "root_cause": "在完成情绪触发的识别后，未先对情感负荷进行简短验证与命名，再将行动层面与已识别的情绪调节需要做情感连接。",
+                    "impact": "来访者可能体验到话题跳跃，降低被理解的主观感，影响行为激活的内在动机与意义感。",
+                    "better_alternative": "采用验证-桥接：先简短确认‘这些触发确实不轻’并命名感受，再说明‘因此我们挑一个最轻量的行动帮助身体降档’，随后过渡到散步/最小社交的复盘。"
+                }
+            }
+        ]
+    },
+    "refined_session": [
+        {
+            "role": "assistant",
+            "content": "<think><assessment>这是第二次会面，先用简短问候与结构化开场，重申会谈方式（可能记笔记与适度打断）并征询同意，再用0–10建立当下情绪基线。</assessment><client_state>尚未发言，推测轻微紧张但愿意合作。</client_state><skill>5804:宣告并协商当次主题与议程; 102004:用0–10评分量化心境与痛苦</skill><strategy>简要说明今天的步骤并征求同意，然后请她用0–10标示此刻困扰强度，作为对齐的起点。</strategy></think>清宁，欢迎回来。我们这次主要会做三件事：先复盘上周的小练习与记录；再把与你家庭相关的困扰“外化”并一起勾勒一张家庭关系示意图；最后做一个边界的小练习，并约定本周的最小行动。过程中我可能会边听边记、必要时为梳理而轻微打断，你可以吗？在开始前，用0到10来表示此刻的整体困扰（10是非常难受、0是很平稳），你大概会给几分？"
+        },
+        {
+            "role": "user",
+            "content": "可以的，这样我更安心。此刻大概是6分左右。"
+        },
+        {
+            "role": "assistant",
+            "content": "<think><assessment>先从最容易的呼吸练习复盘，增强掌控感和自我效能。</assessment><client_state>合作、克制而开放。</client_state><skill>15408:回顾家庭作业并据此确定本次重点</skill><strategy>先只问频次与坚持情况，控制提问负荷。</strategy></think>我们从腹式呼吸开始，过去这一周你大概练了几天？"
+        },
+        {
+            "role": "user",
+            "content": "基本每天都会做，睡前3到5分钟。"
+        },
+        {
+            "role": "assistant",
+            "content": "<think><assessment>继续在同一主题下追问体感效果，保持同一技能以减少切换。</assessment><client_state>有一定成就感，但保持克制。</client_state><skill>15408:回顾家庭作业并据此确定本次重点</skill><strategy>只问练完当下的身体/心理变化。</strategy></think>做完当下，你的身体或心里会有什么变化？"
+        },
+        {
+            "role": "user",
+            "content": "胸口会松一点，思绪也慢下来。"
+        },
+        {
+            "role": "assistant",
+            "content": "<think><assessment>继续同一主题，查找最大障碍与已有提醒办法，巩固习惯。</assessment><client_state>稳定、愿意配合。</client_state><skill>15408:回顾家庭作业并据此确定本次重点</skill><strategy>只问一个问题：最大阻碍是什么或如何提醒自己。</strategy></think>这周坚持呼吸时，你遇到的最大阻碍是什么？"
+        },
+        {
+            "role": "user",
+            "content": "有时写作业拖太晚就容易忘，我现在会在十点半前设个闹钟提醒。"
+        },
+        {
+            "role": "assistant",
+            "content": "<think><assessment>转入睡前S-O-R的复盘，先确认完成度，再逐步走事件—想法—情绪/生理反应。</assessment><client_state>条理清晰，愿意回忆。</client_state><skill>164604:复盘日志作业并给予反馈</skill><strategy>先只问这周大概做了几次记录。</strategy></think>关于睡前的S-O-R小记录，这周你大概完成了几次？"
+        },
+        {
+            "role": "user",
+            "content": "两三次吧。"
+        },
+        {
+            "role": "assistant",
+            "content": "<think><assessment>在一个记录上做深一点的复盘，先仅还原触发情境A。</assessment><client_state>可进一步具体化。</client_state><skill>92404:运用ABC框架梳理诱因与反应链</skill><strategy>请她选一条印象最深的记录，仅描述当时的触发是什么。</strategy></think>能否选一条印象最深的记录，只说当时的触发情境是什么？"
+        },
+        {
+            "role": "user",
+            "content": "有一晚妈妈发来很多消息，说她和姐姐又闹得很僵。"
+        },
+        {
+            "role": "assistant",
+            "content": "<think><assessment>继续同一条记录，聚焦自动化想法B。</assessment><client_state>进入情境回忆。</client_state><skill>92404:运用ABC框架梳理诱因与反应链</skill><strategy>只问当时脑中第一反应/念头。</strategy></think>那一刻，你脑中冒出来的第一反应或念头是什么？"
+        },
+        {
+            "role": "user",
+            "content": "会想到“好像只能靠我了，不然会更糟”。"
+        },
+        {
+            "role": "assistant",
+            "content": "<think><assessment>完成该条记录的C部分，聚焦情绪和生理反应。</assessment><client_state>可继续具体化主观体验。</client_state><skill>92404:运用ABC框架梳理诱因与反应链</skill><strategy>只问当时的情绪与身体感觉。</strategy></think>当时你的情绪和身体感觉是怎样的？"
+        },
+        {
+            "role": "user",
+            "content": "焦虑、夹着一点自责，胸口闷、心跳快。"
+        },
+        {
+            "role": "assistant",
+            "content": "<think><assessment>提炼出高频触发线索，便于后续外化与边界练习连接。</assessment><client_state>清晰、能观察到模式。</client_state><skill>356408:列出高频触发线索与话题</skill><strategy>只问最常见的触发发生在何时/来自谁或哪些话题。</strategy></think>回看你的几次记录，最常见的触发更容易发生在什么时候，或来自哪些人/话题？"
+        },
+        {
+            "role": "user",
+            "content": "多在晚上，来自妈妈的消息或电话，或者一想到妹妹的中考、听到别人提起我爸的事。"
+        },
+        {
+            "role": "assistant",
+            "content": "<think><assessment>量化睡眠关键指标，为追踪与评估提供基线。</assessment><client_state>客观配合、愿意量化。</client_state><skill>121403:指导并收集睡眠监测关键指标</skill><strategy>只问平均入睡潜伏期。</strategy></think>这周你平均大概需要多长时间能睡着？"
+        },
+        {
+            "role": "user",
+            "content": "大概一小时左右。"
+        },
+        {
+            "role": "assistant",
+            "content": "<think><assessment>补充极值有助于观察波动。</assessment><client_state>可继续量化。</client_state><skill>174004:量化严重度、频率与持续时间</skill><strategy>只问最近是否有更快入睡的一晚及大致时长。</strategy></think>最近有没有明显更快的一晚？大概多久入睡？"
+        },
+        {
+            "role": "user",
+            "content": "有一次大概四十多分钟。"
+        },
+        {
+            "role": "assistant",
+            "content": "<think><assessment>补全最慢一晚的情况。</assessment><client_state>持续合作。</client_state><skill>174004:量化严重度、频率与持续时间</skill><strategy>只问最近最慢的一晚大概多久入睡。</strategy></think>也想了解一下，最慢的一晚大约花了多久入睡？"
+        },
+        {
+            "role": "user",
+            "content": "差不多一个半小时。"
+        },
+        {
+            "role": "assistant",
+            "content": "<think><assessment>量化夜间反复思虑与日间功能，使用词语锚点，降低评估负担。</assessment><client_state>可以进行自我评估。</client_state><skill>174004:量化严重度、频率与持续时间</skill><strategy>先问反复想的频率用词语分档。</strategy></think>关于夜里反复想家里的事，这周的频率更像“少一些”“差不多”还是“多一些”？"
+        },
+        {
+            "role": "user",
+            "content": "少一些。"
+        },
+        {
+            "role": "assistant",
+            "content": "<think><assessment>继续量化强度，仍用词语锚点。</assessment><client_state>稳定配合。</client_state><skill>174004:量化严重度、频率与持续时间</skill><strategy>只问当时感受的强度是轻/中/强。</strategy></think>当时的强度更接近“轻”“中”还是“强”？"
+        },
+        {
+            "role": "user",
+            "content": "介于中和强之间，偏上。"
+        },
+        {
+            "role": "assistant",
+            "content": "<think><assessment>补充日间功能，用词语锚定课堂专注度。</assessment><client_state>可继续客观描述。</client_state><skill>673203:评估失眠对日间功能影响</skill><strategy>只问上课跟得上程度用分档词语。</strategy></think>白天上课的跟随度这周更像“勉强能跟上”“基本能跟上”还是“比较轻松能跟上”？"
+        },
+        {
+            "role": "user",
+            "content": "基本能跟上，偶尔会走神。"
+        },
+        {
+            "role": "assistant",
+            "content": "<think><assessment>进行外化，先给予情感验证，再邀请命名，帮助与问题拉开距离。</assessment><client_state>投入、愿意尝试新方法。</client_state><skill>32:表达理解与共情</skill><strategy>先简短验证其付出与负担，再请她为这团困扰起名。</strategy></think>你已经做了不少努力，同时这些夜间触发确实不轻。我们把这团与家庭相关的困扰当成一个外在的“东西”，你愿意给它起个名字吗？"
+        },
+        {
+            "role": "user",
+            "content": "可能会叫它“家庭漩涡”。"
+        },
+        {
+            "role": "assistant",
+            "content": "<think><assessment>继续外化，具体化它的出现时段与持续，便于后续边界练习对接。</assessment><client_state>进入观察者位置，距离感提升。</client_state><skill>303404:概述本次任务与流程并按项推进</skill><strategy>只问它通常在什么时刻靠近。</strategy></think>当“家庭漩涡”靠近你时，通常是在什么时刻？"
+        },
+        {
+            "role": "user",
+            "content": "多在晚上，尤其临睡前或收到妈妈信息的时候。"
+        },
+        {
+            "role": "assistant",
+            "content": "<think><assessment>继续外化其“拉力”，为边界行为锚点提供素材。</assessment><client_state>愿意具体化描述。</client_state><skill>303404:概述本次任务与流程并按项推进</skill><strategy>只问它最常把你拉去做什么。</strategy></think>它最常把你拉去做的事情是什么？"
+        },
+        {
+            "role": "user",
+            "content": "让我反复想要怎么解决，还会想安慰妈妈，然后就很晚才睡。"
+        },
+        {
+            "role": "assistant",
+            "content": "<think><assessment>观察外化后自责是否下降，进行词语分档打分。</assessment><client_state>可自我评估。</client_state><skill>174004:量化严重度、频率与持续时间</skill><strategy>只问此刻“自责”的强度轻/中/强。</strategy></think>此刻如果只看“自责”的感觉，你会把它放在“轻”“中”还是“强”？"
+        },
+        {
+            "role": "user",
+            "content": "大概是中偏上。"
+        },
+        {
+            "role": "assistant",
+            "content": "<think><assessment>转入家谱图，先获得三代成员与家庭构成，保持好奇、无预设。</assessment><client_state>理性、清晰。</client_state><skill>452411:收集主要养育背景与照料结构</skill><strategy>只问三代成员与核心家庭的基本构成。</strategy></think>我们把系统的轮廓画出来：你们家三代成员的基本构成可以简单说说吗？"
+        },
+        {
+            "role": "user",
+            "content": "爷爷奶奶在老家，联系不多；外婆在世、外公过世。我们家是五口人，父母和我们三个姐妹，我排行老二。"
+        },
+        {
+            "role": "assistant",
+            "content": "<think><assessment>补充早年照料与居住的时间轴，是纵向概念化的关键。</assessment><client_state>可顺畅回忆。</client_state><skill>212413:梳理家庭结构与监护/抚养变动</skill><strategy>只问幼年谁照看、何时与父母同住。</strategy></think>你幼年主要由谁照看？后来大概在什么时候开始和父母一起生活？"
+        },
+        {
+            "role": "user",
+            "content": "幼儿期多处寄养，小学三年级前在外省生活得更轻松些，返乡之后就和父母一起了。"
+        },
+        {
+            "role": "assistant",
+            "content": "<think><assessment>标注关键家庭事件节点，为系统观提供锚点。</assessment><client_state>可能触发情绪记忆，需温和。</client_state><skill>226815:梳理父母关系冲突与关键家庭事件</skill><strategy>只请她选2–3个让家庭关系明显变化的节点。</strategy></think>如果让你选出2到3个让家庭关系明显变化的节点，你会选哪些？"
+        },
+        {
+            "role": "user",
+            "content": "被妈妈误会挨了很重的骂；妹妹出生后妈妈更偏爱她；后来听到关于爸爸和同事的传闻，家里因此常年争吵。"
+        },
+        {
+            "role": "assistant",
+            "content": "<think><assessment>在家谱旁标注关系亲近度与边界模糊点，便于随后进入两列法。</assessment><client_state>能进行关系层面的自我定位。</client_state><skill>202810:评估家庭互动与冲突影响</skill><strategy>只问此刻你与妈妈、爸爸、姐姐、妹妹的亲近/疏远感受。</strategy></think>此刻你与妈妈、爸爸、姐姐、妹妹各自的亲近度更像“靠近”“一般”还是“疏远”？"
+        },
+        {
+            "role": "user",
+            "content": "妈妈是靠近但压力大；爸爸比较疏远；姐姐有点疏远但想靠近；妹妹算靠近，我会担心她。"
+        },
+        {
+            "role": "assistant",
+            "content": "<think><assessment>进入边界练习，先明确边界最模糊的关系，为两列法做桥接。</assessment><client_state>开放谈边界问题。</client_state><skill>337208:评估家庭冲突与教养影响</skill><strategy>只问你觉得边界最模糊的关系是哪两段。</strategy></think>放在现在，你觉得边界最模糊的关系是哪两段？"
+        },
+        {
+            "role": "user",
+            "content": "我和妈妈，还有我和姐姐。"
+        },
+        {
+            "role": "assistant",
+            "content": "<think><assessment>两列法开始，先做“我能影响/我的部分”，增强掌控感。</assessment><client_state>愿意具体化行动。</client_state><skill>303404:概述本次任务与流程并按项推进</skill><strategy>只请她在左列列出2–3件自己能影响的具体小事。</strategy></think>在左列“我能影响/我的部分”，关于你和妈妈、姐姐的互动，你能影响的2–3件具体小事会是什么？"
+        },
+        {
+            "role": "user",
+            "content": "接电话的时段，表达方式（尽量简洁温和），自己的学习安排。"
+        },
+        {
+            "role": "assistant",
+            "content": "<think><assessment>继续两列法，区分不可控的他人决定，降低个体化归因。</assessment><client_state>边界意识逐步清晰。</client_state><skill>303404:概述本次任务与流程并按项推进</skill><strategy>只请她在右列列出2–3件不在她控制范围内的事。</strategy></think>右列“我不能控制/不属于我的决定”，你会放入哪2–3件事？"
+        },
+        {
+            "role": "user",
+            "content": "爸爸的选择；姐姐要不要钱、怎么跟妈妈相处；妹妹对学习的态度。"
+        },
+        {
+            "role": "assistant",
+            "content": "<think><assessment>为家谱旁做情绪与意义标签，分人物逐一完成，避免单轮负荷过大。</assessment><client_state>可以进行情绪标注。</client_state><skill>303401:聚焦感受的开放式提问</skill><strategy>先从妈妈开始，情绪词与意义词各一个，外加强度分档。</strategy></think>我们在家谱旁做情绪与意义的小标签。先看妈妈：此刻你对妈妈最突出的1–2个情绪词是什么？以及这段关系此刻对你的“意义词”是什么（如被看见/被忽视/被需要），强度更像轻/中/强？"
+        },
+        {
+            "role": "user",
+            "content": "心疼、压力，中到强；意义是“被需要”。"
+        },
+        {
+            "role": "assistant",
+            "content": "<think><assessment>继续相同任务，转向爸爸。</assessment><client_state>稳定。</client_state><skill>303401:聚焦感受的开放式提问</skill><strategy>只问爸爸的情绪词与意义词并标强度。</strategy></think>关于爸爸呢？此刻的情绪词与意义词、以及强度会怎么标？"
+        },
+        {
+            "role": "user",
+            "content": "愤怒、不信任，强；意义是“被伤害过的担心”。"
+        },
+        {
+            "role": "assistant",
+            "content": "<think><assessment>同一任务继续，转向姐姐。</assessment><client_state>可延续。</client_state><skill>303401:聚焦感受的开放式提问</skill><strategy>只问姐姐的情绪与意义并标强度。</strategy></think>关于姐姐，你会怎么标？"
+        },
+        {
+            "role": "user",
+            "content": "委屈、疏远，中；意义是“想靠近又怕冲突”。"
+        },
+        {
+            "role": "assistant",
+            "content": "<think><assessment>完成最后一个标签，转向妹妹。</assessment><client_state>配合。</client_state><skill>303401:聚焦感受的开放式提问</skill><strategy>只问妹妹的情绪与意义并标强度。</strategy></think>关于妹妹，你此刻的情绪与意义、以及强度会怎么标？"
+        },
+        {
+            "role": "user",
+            "content": "担心、无力，中到强；意义是“责任感很重”。"
+        },
+        {
+            "role": "assistant",
+            "content": "<think><assessment>将边界练习转化为一次最小可行的行为实验，并S-O-R化观察指标，保持‘一次’而非多次，贴合可行性。</assessment><client_state>有行动意愿，需要具体化。</client_state><skill>516000:协商并明确近期具体目标</skill><strategy>只请她从左列挑一项，作为本周一次性的边界实践。</strategy></think>从左列挑一项，作为这周一次最小可行的边界实践，你更愿意先做哪一个？"
+        },
+        {
+            "role": "user",
+            "content": "先从限定夜间通话时间开始，比如10分钟，必要时约到第二天中午继续。"
+        },
+        {
+            "role": "assistant",
+            "content": "<think><assessment>把该实践做成一次小观察，明确四个可记录点，便于下次复盘。</assessment><client_state>目标清楚。</client_state><skill>587002:介绍并布置思维记录表</skill><strategy>只问她是否愿意按四个指标记录这一次实践。</strategy></think>我们把它做成一次小观察：是否愿意在这次“10分钟通话”后，记录四个点——通话时长、当时最明显的情绪及强度（轻/中/强）、当晚大概多久入睡、第二天上课跟随度（勉强/基本/较轻松）？"
+        },
+        {
+            "role": "user",
+            "content": "可以，这样我更好对照。"
+        },
+        {
+            "role": "assistant",
+            "content": "<think><assessment>预判执行阻力并设计If–Then脚本，降低临场心软导致的失败率。</assessment><client_state>担心让妈妈难过，可能心软。</client_state><skill>366203:明确记录时机并持续反馈</skill><strategy>先只问她预判的最大阻力是什么。</strategy></think>你预判在执行这个“10分钟”时，最大的阻力会是什么？"
+        },
+        {
+            "role": "user",
+            "content": "我会心软，怕妈妈情绪更不好。"
+        },
+        {
+            "role": "assistant",
+            "content": "<think><assessment>继续在同一阻力上构建温和暂停的语言脚本，增强可执行性。</assessment><client_state>需要语言模板支撑。</client_state><skill>366203:明确记录时机并持续反馈</skill><strategy>只请她写出到点时准备说的一句话。</strategy></think>到点时，你打算用哪一句温和的话先暂停，并约定第二天再继续？"
+        },
+        {
+            "role": "user",
+            "content": "我可以说：“妈，我这边要休息了，明天中午我再好好听你讲，我们约个具体时间。”"
+        },
+        {
+            "role": "assistant",
+            "content": "<think><assessment>把作业清单化并征询可行性，严格贴合本次目标：完善家谱、继续呼吸、记录一次边界实践。</assessment><client_state>清晰务实，倾向记录。</client_state><skill>461805:布置自助/家庭作业并约定回顾</skill><strategy>列出三项作业并只问一个可行性问题。</strategy></think>这周的会后安排我们这样定：\n- 完善家谱图，并选“妈妈或姐姐”其中一位，补充她的成长脉络与重要事件；\n- 每天睡前3–5分钟腹式呼吸（白天情绪升高时1–2分钟）；\n- 记录一次“夜间通话10分钟”的边界实践，用刚才的四个点做S-O-R观察。\n这样的安排对你来说可行吗？"
+        },
+        {
+            "role": "user",
+            "content": "可行，这样更具体。"
+        },
+        {
+            "role": "assistant",
+            "content": "<think><assessment>为下次ASIF式工作做素材铺垫，确定聚焦人物并交代记录要点。</assessment><client_state>动机良好，愿意准备材料。</client_state><skill>529403:布置事件—情绪—影响记录作业</skill><strategy>只问她想先聚焦妈妈还是姐姐。</strategy></think>下次我们会聚焦一位关键人物更系统地看“情境—想法—情绪—反应”。你更想先选妈妈还是姐姐？"
+        },
+        {
+            "role": "user",
+            "content": "先选妈妈。"
+        },
+        {
+            "role": "assistant",
+            "content": "<think><assessment>具体化ASIF准备任务的内容与范围，保持简单可执行。</assessment><client_state>愿意承诺。</client_state><skill>529403:布置事件—情绪—影响记录作业</skill><strategy>只请她写3–5个关键事件与3个典型想法作为下次素材。</strategy></think>那请你写下关于妈妈让你印象深刻的3–5个关键事件，以及你对她最常冒出来的3个典型想法，带来我们一起看，可以吗？"
+        },
+        {
+            "role": "user",
+            "content": "可以，我会准备好。"
+        },
+        {
+            "role": "assistant",
+            "content": "<think><assessment>进入结束流程，总结今天的要点与进展，确认下次时间并以陈述句收束。</assessment><client_state>平稳、带方向感。</client_state><skill>25001:及时肯定与鼓励努力与进步</skill><strategy>用简洁陈述总结与鼓励，并确认下次时间后以非问句收尾。</strategy></think>今天我们完成了作业复盘（呼吸、S-O-R与功能量化）、把“家庭漩涡”外化并在家谱旁标注了亲近度、情绪与意义，也用两列法划清了“我能影响/不能控制”，并约定了一次“10分钟通话”的小实验。你的投入与具体化很到位，下次按约定时间见，我们就从家谱补充与“妈妈”的素材接上来。"
+        }
+    ]
+}
